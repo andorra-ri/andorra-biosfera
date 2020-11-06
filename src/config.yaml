@@ -7,3 +7,12 @@ social:
   instagram: https://www.instagram.com/andorrabiosfera
   vimeo: https://www.vimeo.com/andorrabiosfera
   telegram: tg://resolve?domain=andorrabiosfera
+
+candidacy:
+  steps:
+    diagnosis: 1598918400000
+    diffusion: 1609459200000
+    participation: 1612137600000
+    synthesis: 1625097600000
+    presentation: 1630454400000
+    resolution: 1646006400000
