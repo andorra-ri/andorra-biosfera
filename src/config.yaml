@@ -9,6 +9,8 @@ social:
   telegram: tg://resolve?domain=andorrabiosfera
 
 candidacy:
+  # https://player.vimeo.com/video/{id}?portrait=false&title=false&byline=false
+  video: https://player.vimeo.com/video/471933158
   steps:
     diagnosis: 1598918400000
     diffusion: 1609459200000

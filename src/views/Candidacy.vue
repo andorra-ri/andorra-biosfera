@@ -11,6 +11,9 @@
 			</ul>
 		</header>
 		<div class="content">
+			<div class="video video--16_9">
+				<iframe :src="video" allowfullscreen="true" />
+			</div>
 			<p>{{ $t('candidacy.description') }}</p>
 			<ul class="timeline">
 				<li
@@ -29,7 +32,7 @@
 <script>
 import { candidacy } from '../config.yaml';
 
-const { steps, files } = candidacy;
+const { video, steps, files } = candidacy;
 
 export default {
 	name: 'Candidacy',
@@ -41,6 +44,7 @@ export default {
 		return {
 			steps,
 			files,
+			video,
 		};
 	},
 	methods: {
