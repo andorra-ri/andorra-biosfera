@@ -12,6 +12,7 @@ faq:
   more_doubts: Tens més dubtes?
   contact: Contacta amb nosaltres per {email} o les xarxes socials
   email: correu electrònic
+  search: Cercar resposta...
 
   questions:
     - group: 1
