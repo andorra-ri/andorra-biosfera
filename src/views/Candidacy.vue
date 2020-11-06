@@ -2,6 +2,13 @@
 	<section class="split candidacy">
 		<header>
 			<h2>{{ $t('candidacy.title') }}</h2>
+			<p>{{ $t('candidacy.download_files') }}</p>
+			<ul class="files">
+				<li v-for="(path, name) in files" :key="name">
+					<svg><use :xlink:href="`vectors/files.svg#${extension(path)}`" /></svg>
+					<a :href="path" download>{{ $t(`candidacy.files.${name}`) }}</a>
+				</li>
+			</ul>
 		</header>
 		<div class="content">
 			<p>{{ $t('candidacy.description') }}</p>
@@ -22,7 +29,7 @@
 <script>
 import { candidacy } from '../config.yaml';
 
-const { steps } = candidacy;
+const { steps, files } = candidacy;
 
 export default {
 	name: 'Candidacy',
@@ -31,7 +38,17 @@ export default {
 		capitalize: text => text.charAt(0).toUpperCase() + text.slice(1),
 	},
 	data() {
-		return { steps };
+		return {
+			steps,
+			files,
+		};
+	},
+	methods: {
+		extension(path) {
+			const extensions = ['pdf', 'xlsx', 'docx', 'pptx', 'zip'];
+			const extension = path.substring(path.lastIndexOf('.') + 1);
+			return extensions.includes(extension) ? extension : 'file';
+		},
 	},
 };
 </script>

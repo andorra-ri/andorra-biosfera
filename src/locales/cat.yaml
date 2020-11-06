@@ -34,6 +34,13 @@ candidacy:
       name: Resolució UNESCO
       description: ''
 
+  download_files: Descarrega els documents generats durant el procés de candidatura
+  files:
+    viability_study: Estudi de viabilitat
+    candidacy_slides: Presentació de la candidatura
+    participation_results: Resultats del procés participatiu
+    candidacy_dossier: Dossier de la candidatura
+
 faq:
   title: Preguntes freqüents
   more_doubts: Tens més dubtes?
