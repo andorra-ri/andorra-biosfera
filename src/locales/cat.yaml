@@ -1,7 +1,17 @@
 title: null
 
+social:
+  twitter: Segueix-nos a Twitter
+  facebook: Segueix-nos a Facebook
+  telegram: Segueix-nos a Telegram
+  instagram: Segueix-nos a Instagram
+  vimeo: Segueix-nos a Vimeo
+
 faq:
   title: Preguntes freqüents
+  more_doubts: Tens més dubtes?
+  contact: Contacta amb nosaltres per {email} o les xarxes socials
+  email: correu electrònic
 
   questions:
     - group: 1
