@@ -1,1 +1,53 @@
 title: null
+
+social:
+  twitter: Segueix-nos a Twitter
+  facebook: Segueix-nos a Facebook
+  telegram: Segueix-nos a Telegram
+  instagram: Segueix-nos a Instagram
+  vimeo: Segueix-nos a Vimeo
+
+faq:
+  title: Preguntes freqüents
+  more_doubts: Tens més dubtes?
+  contact: Contacta amb nosaltres per {email} o les xarxes socials
+  email: correu electrònic
+  search: Cercar resposta...
+
+  questions:
+    - group: 1
+      question: És realista que Andorra esdevingui el primer país reconegut com a Reserva de la Biosfera?
+      answer: Andorra ja disposa actualment dels instruments tècnics i normatius que regulen l'ús i evolució dels recursos naturals i culturals d'acord amb criteris de sostenibilitat. El reconeixement de la UNESCO referma el compromís amb els Objectius de Desenvolupament Sostenible i garanteix l'articulació d'accions específiques per assolir-los.
+    - group: 1
+      question: És un inconvenient que Ordino ja sigui una Reserva de la Biosfera?
+      answer: En absolut. Que Ordino ja sigui una Reserva de la Biosfera avala positivament la candidatura a escala nacional​.
+    - group: 1
+      question: En què es diferència de la Vall del Madriu-Perafita-Claror?
+      answer: La Vall del Madriu-Perafita-Claror és Patrimoni de la Humanitat per la UNESCO, una figura creada per protegir i salvaguardar un patrimoni de valor exclusiu a escala mundial. La Reserva de la Biosfera és l'eina operativa del programa L'Home i la Biosfera, que reconeix l'home com a part indivisa i fonamental dins de l'entorn natural.
+    - group: 2
+      question: Com pot involucrar-se la ciutadania?
+      answer: La Reserva de la Biosfera es fonamenta en la transparència i participació de tots els actors, inclosa la ciutadania, durant el procés de creació i al llarg del seu funcionament, mitjançant diferents taules de treball on seguir, debatre i contribuir en les diferents accions a realitzar.
+    - group: 3
+      question: Quines obligacions comporta?
+      answer: Tots aquells compromisos del pla de gestió i d'acció definits durant el procés de candidatura.
+    - group: 3
+      question: Quines limitacions comporta?
+      answer: La Reserva de la Biosfera no té rang normatiu i no comporta cap limitació addicional sobre l'ús i gestió del territori a les ja imposades per la legislació vigent.
+    - group: 3
+      question: Existeix alguna penalització?
+      answer: La inclusió al programa és voluntària, i tant el no assoliment dels compromisos com la denegació d'una renovació no comporta cap sanció.
+    - group: 3
+      question: Com afecta a la propietat privada?
+      answer: La Reserva de la Biosfera no té implicacions sobre l'ús del sòl ni la propietat privada. Són i seran els POUPs els que s'encarreguen de regular el desenvolupament urbanístic de cada parròquia.
+    - group: 3
+      question: És compatible amb projectes de nova edificació?
+      answer: La Reserva de la Biosfera no s'oposa al desenvolupament socioeconòmic, inclosa la construcció, sempre que aquest sigui racional i ecològicament sostenible. És la normativa nacional, a través dels POUPs, la que ha de vetllar pel compliment d'aquests criteris.
+    - group: 4
+      question: Qui gestiona una Reserva de la Biosfera?
+      answer: Tota Reserva de la Biosfera té associada una entitat gestora que s'encarrega del seu desenvolupament, seguiment i dinamització. En aquesta entitat hi estan representats tant organismes públics com agents i organitzacions dels principals sectors involucrats (comunitat educativa, ramaders i agricultors, turisme, Ass. de Joves, Ass. Naturalistes, etc.).​
+    - group: 4
+      question: Hi ha finançament internacional?
+      answer: Ser una Reserva de la Biosfera no comporta cap mena d'ajuda econòmica per part de la UNESCO, però posiciona el territori molt favorablement per optar a finançament de projectes de recerca i desenvolupament d'alguns programes europeus.
+    - group: 4
+      question: Quina és la vigència del programa?
+      answer: La declaració té una vigència de deu anys, renovable per deu anys més si els compromisos assumits s'han mantingut.

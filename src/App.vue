@@ -1,12 +1,16 @@
 <template>
-	<div>Hello world!</div>
+	<div class="wrapper">
+		<faq />
+	</div>
 </template>
 
 <script>
+import Faq from './views/FAQ.vue';
+
 export default {
 	name: 'App',
-	data() {
-		return {};
+	components: {
+		Faq,
 	},
 };
 </script>

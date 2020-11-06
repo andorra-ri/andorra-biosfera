@@ -1,0 +1,11 @@
+input.search {
+	outline: 0;
+	border: 0;
+	font: inherit;
+	padding: 0.25em 0;
+	padding-left: 2.5em;
+	background: url('../assets/vectors/search.svg') no-repeat left center;
+	background-size: auto 100%;
+
+	&::placeholder { font: inherit; }
+}
