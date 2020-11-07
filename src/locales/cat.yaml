@@ -7,6 +7,40 @@ social:
   instagram: Segueix-nos a Instagram
   vimeo: Segueix-nos a Vimeo
 
+candidacy:
+  title: Procés de candidatura
+  description: La candidatura del programa MAB consisteix a elaborar un dossier on es recullen els valors naturals i culturals que fan d'Andorra un candidat potencial per a ser denominat com a Reserva de la Biosfera. Cal demostrar la voluntat, les aptituds i les possibilitats que com a societat tenim per a garantir la conservació del territori sense renunciar al seu desenvolupament. En aquest sentit, tant el patrimoni del país com els seus instruments de gestió són requisits indispensables per esdevenir una Reserva de la Biosfera.
+  steps:
+    diagnosis:
+      name: Diagnosi
+      description: Realització d'un estudi de viabilitat per valorar els requisits i les possibilitats de la candidatura.
+      download: Estudi de viabilitat
+    diffusion:
+      name: Difusió
+      description: Difusió a tots els actors i ciutadans d'Andorra mitjançant comunicats oficials, reunions de poble o les xarxes socials.
+      download: Presentació de la candidatura
+    participation:
+      name: Participació
+      description: Processos participatius amb tots els actors involucrats en la gestió del territori, fonamental durant tota la candidatura per garantir la transparència i representativitat dels objectius i compromisos adquirits.
+      download: Resultats del procés participatiu
+    synthesis:
+      name: Síntesi
+      description: Compilació de tota la informació preexistent i la generada durant els processos participatius en un dossier a presentar davant la UNESCO.
+      download: Dossier de la candidatura
+    presentation:
+      name: Presentació
+      description: La Comissió Nacional d'Andorra per la UNESCO del Ministeri d'Afers Exteriors del Govern d'Andorra diposita la candidatura a la UNESCO, que ha d'emetre una resolució en el termini aproximat de sis mesos.
+    resolution:
+      name: Resolució UNESCO
+      description: ''
+
+  download_files: Descarrega els documents generats durant el procés de candidatura
+  files:
+    viability_study: Estudi de viabilitat
+    candidacy_slides: Presentació de la candidatura
+    participation_results: Resultats del procés participatiu
+    candidacy_dossier: Dossier de la candidatura
+
 faq:
   title: Preguntes freqüents
   more_doubts: Tens més dubtes?
