@@ -1,3 +1,10 @@
+.main-nav {
+	display: inline-flex;
+	margin: 0 0.75rem;
+
+	li { margin: 0 0.75rem; }
+}
+
 .nav-social {
 	display: inline-flex;
 	flex-wrap: wrap;

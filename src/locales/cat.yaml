@@ -1,5 +1,10 @@
 title: null
 
+nav:
+  candidacy: Candidatura
+  faq: FAQs
+  join: Participa
+
 social:
   twitter: Segueix-nos a Twitter
   facebook: Segueix-nos a Facebook
