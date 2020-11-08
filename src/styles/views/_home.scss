@@ -1,7 +1,5 @@
 .landing {
 	height: calc(100vh - #{2 * $body-padding});
-	display: grid;
-	align-items: center;
 	position: relative;
 
 	.tagline {
@@ -50,6 +48,11 @@
 	}
 
 	.slideshow {
+		position: relative;
+		height: 100%;
+		display: grid;
+		align-items: center;
+
 		&__controls {
 			position: absolute;
 			bottom: 0;

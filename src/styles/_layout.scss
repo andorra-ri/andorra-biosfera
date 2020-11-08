@@ -42,6 +42,7 @@ section.split {
 	position: absolute;
 	top: 0;
 	width: 100%;
+	z-index: 2;
 
 	&__right { margin-left: auto; }
 	&__left { margin-right: auto; }
