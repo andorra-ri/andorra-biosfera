@@ -28,19 +28,22 @@ export default {
 	data() {
 		return {
 			current: 0,
-			interval: undefined,
+			timeout: undefined,
 		};
 	},
 	mounted() {
-		const { autoplay, next } = this;
-		if (autoplay) this.interval = setInterval(() => next(), autoplay * 1000);
+		this.jump(0);
 	},
 	beforeDestroy() {
-		clearInterval(this.interval);
+		clearTimeout(this.timeout);
 	},
 	methods: {
 		jump(index) {
 			this.current = (this.items.length + index) % this.items.length;
+			if (this.autoplay) {
+				clearTimeout(this.timeout);
+				this.timeout = setTimeout(() => this.next(), this.autoplay * 1000);
+			}
 		},
 		prev() {
 			this.jump(this.current - 1);

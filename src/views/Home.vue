@@ -11,7 +11,11 @@
 					<a :href="join" target="_blank" class="cta">{{ $t('nav.join') }}</a>
 				</div>
 			</nav>
-			<slideshow v-slot="{ item }" :items="goals" controls>
+			<slideshow
+				v-slot="{ item }"
+				:items="goals.items"
+				:autoplay="goals.interval"
+				controls>
 				<img :src="item.image" class="cover">
 				<div class="tagline">
 					<i18n tag="h1" :path="`goals.${item.id}.tagline`">
