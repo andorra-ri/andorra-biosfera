@@ -5,7 +5,7 @@
 				<div class="topbar__right">
 					<ul class="main-nav">
 						<li v-for="(section, name) in nav" :key="name">
-							<a :href="`#${section}`">{{ $t(`nav.${name}`) }}</a>
+							<a v-smooth-scroll :href="`#${section}`">{{ $t(`nav.${name}`) }}</a>
 						</li>
 					</ul>
 					<a :href="join" target="_blank" class="cta">{{ $t('nav.join') }}</a>

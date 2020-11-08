@@ -1,3 +1,7 @@
+scroll:
+  duration: 2000
+  updateHistory: false
+
 nav:
   candidacy: candidatura
   faq: faqs
