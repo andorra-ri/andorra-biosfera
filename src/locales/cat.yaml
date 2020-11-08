@@ -12,6 +12,24 @@ social:
   instagram: Segueix-nos a Instagram
   vimeo: Segueix-nos a Vimeo
 
+goals:
+  commitment:
+    tagline: May this be the {em} cool thing today?
+    em: very first
+    description: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+  sustainability:
+    tagline: At vero eos et {em}
+    em: accusamus
+    description: Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque.
+  anticipation:
+    tagline: Occaecati et {em} non provident sunt
+    em: cupiditate
+    description: Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+  consensus:
+    tagline: Officiis {em} aut rerum non
+    em: debitis
+    description: Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+
 candidacy:
   title: Procés de candidatura
   description: La candidatura del programa MAB consisteix a elaborar un dossier on es recullen els valors naturals i culturals que fan d'Andorra un candidat potencial per a ser denominat com a Reserva de la Biosfera. Cal demostrar la voluntat, les aptituds i les possibilitats que com a societat tenim per a garantir la conservació del territori sense renunciar al seu desenvolupament. En aquest sentit, tant el patrimoni del país com els seus instruments de gestió són requisits indispensables per esdevenir una Reserva de la Biosfera.

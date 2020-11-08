@@ -11,19 +11,33 @@
 					<a :href="join" target="_blank" class="cta">{{ $t('nav.join') }}</a>
 				</div>
 			</nav>
+			<slideshow v-slot="{ item }" :items="goals" controls>
+				<img :src="item.image" class="cover">
+				<div class="tagline">
+					<i18n tag="h1" :path="`goals.${item.id}.tagline`">
+						<template #em>
+							<em>{{ $t(`goals.${item.id}.em`) }}</em>
+						</template>
+					</i18n>
+					<p>{{ $t(`goals.${item.id}.description`) }}</p>
+				</div>
+			</slideshow>
 		</div>
 	</section>
 </template>
 
 <script>
-import { nav, join } from '../config.yaml';
+import Slideshow from '../components/Slideshow.vue';
+import { nav, join, goals } from '../config.yaml';
 
 export default {
 	name: 'Home',
+	components: { Slideshow },
 	data() {
 		return {
 			nav,
 			join,
+			goals,
 		};
 	},
 };
