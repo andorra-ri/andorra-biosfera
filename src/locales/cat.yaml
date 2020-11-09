@@ -30,6 +30,25 @@ goals:
     em: debitis
     description: Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
 
+reserve:
+  description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.
+  key_point: conciliar la biodiversitat, el desenvolupament socioeconòmic i els valors culturals
+  functions: Les funcions principals inclouen contribuir a la conservació de paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic, i promoure la recerca científica, vigilància i educació contínua.
+  zoning:
+    description: Per a que una Reserva de la Biosfera pugui ser implementada, es requereix una estructura territorial dividida en tres zones.
+    core:
+      name: Nucli
+      description: Són tots els espais naturals amb ecosistemes singulars protegits jurídicament.
+      andorra: La zona nucli a Andorra la componen el Parc Natural de Sorteny, el Parc Natural de les Valls del Comapedrosa i el conjunt de la Vall del Madriu-Perafita-Claror.​
+    buffer:
+      name: Zona tampó
+      description: Envolta el nucli i s'hi desenvolupen activitats ecològicament sostenibles com les pràctiques ramaderes tradicionals, l'educació ambiental, la recreació, el turisme ecològic, i altres activitats que reforcen la recerca científica, el seguiment, la capacitació i l'educació.
+      andorra: La zona tampó a Andorra la componen els boscos i pastures públiques de Comuns i Quarts.
+    transition:
+      name: Zona de transició
+      description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
+      andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme.
+
 candidacy:
   title: Procés de candidatura
   description: La candidatura del programa MAB consisteix a elaborar un dossier on es recullen els valors naturals i culturals que fan d'Andorra un candidat potencial per a ser denominat com a Reserva de la Biosfera. Cal demostrar la voluntat, les aptituds i les possibilitats que com a societat tenim per a garantir la conservació del territori sense renunciar al seu desenvolupament. En aquest sentit, tant el patrimoni del país com els seus instruments de gestió són requisits indispensables per esdevenir una Reserva de la Biosfera.
