@@ -1,5 +1,5 @@
 <template>
-	<section class="split candidacy">
+	<section class="split reverse candidacy">
 		<header>
 			<h2>{{ $t('candidacy.title') }}</h2>
 			<p>{{ $t('candidacy.download_files') }}</p>

@@ -34,6 +34,15 @@ section.split {
 		top: $body-padding;
 		left: 0;
 	}
+
+	&.reverse {
+		flex-direction: row-reverse;
+
+		header {
+			margin-right: 0;
+			margin-left: 5rem;
+		}
+	}
 }
 
 .topbar {
