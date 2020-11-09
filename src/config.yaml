@@ -1,3 +1,13 @@
+scroll:
+  duration: 2000
+  updateHistory: false
+
+nav:
+  candidacy: candidatura
+  faq: faqs
+
+join: https://www.visc.ad
+
 mails:
   inquiry: consultes@andorrabiosfera.ad
 
@@ -7,6 +17,18 @@ social:
   instagram: https://www.instagram.com/andorrabiosfera
   vimeo: https://www.vimeo.com/andorrabiosfera
   telegram: tg://resolve?domain=andorrabiosfera
+
+goals:
+  interval: 15 # seconds
+  items:
+    - id: commitment
+      image: ''
+    - id: sustainability
+      image: ''
+    - id: anticipation
+      image: ''
+    - id: consensus
+      image: ''
 
 candidacy:
   # https://player.vimeo.com/video/{id}?portrait=false&title=false&byline=false

@@ -3,11 +3,12 @@
 body {
 	font: 1rem / 1.2 $font-family, sans-serif;
 	font-weight: $font-weight;
-	padding: $body-padding;
+	color: $color-text;
 }
 
 .wrapper {
 	margin: 0 auto;
+	padding: $body-padding;
 	max-width: $content-width;
 
 	section + section { margin-top: $section-spacing; }
@@ -33,4 +34,16 @@ section.split {
 		top: $body-padding;
 		left: 0;
 	}
+}
+
+.topbar {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+
+	&__right { margin-left: auto; }
+	&__left { margin-right: auto; }
 }
