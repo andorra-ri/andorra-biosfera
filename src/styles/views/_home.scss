@@ -2,10 +2,15 @@
 	height: calc(100vh - #{2 * $body-padding});
 	position: relative;
 
-	.tagline {
+	.hero {
 		z-index: 1;
 
 		h1 {
+			font-weight: 600;
+			font-size: 1.5rem;
+		}
+
+		.tagline {
 			font-size: $font-size--h1;
 			font-weight: 600;
 			line-height: 1;

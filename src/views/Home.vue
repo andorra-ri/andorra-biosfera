@@ -17,8 +17,9 @@
 				:autoplay="goals.interval"
 				controls>
 				<img :src="item.image" class="cover">
-				<div class="tagline">
-					<i18n tag="h1" :path="`goals.${item.id}.tagline`">
+				<div class="hero">
+					<h1>{{ $t('title') }}</h1>
+					<i18n tag="h4" class="tagline" :path="`goals.${item.id}.tagline`">
 						<template #em>
 							<em>{{ $t(`goals.${item.id}.em`) }}</em>
 						</template>
