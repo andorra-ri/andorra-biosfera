@@ -1,0 +1,14 @@
+.foot {
+	margin-top: 10rem;
+	display: flex;
+	align-items: center;
+
+	&__right { margin-left: auto; }
+	&__left { margin-right: auto; }
+
+	.copyright {
+		font-size: 0.8em;
+	}
+
+	.nav-social { margin-right: 1rem; }
+}
