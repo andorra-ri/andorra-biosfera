@@ -30,7 +30,7 @@
 
 		p {
 			box-sizing: border-box;
-			width: 45%;
+			width: 35%;
 			padding-right: $body-padding;
 		}
 	}
@@ -38,8 +38,8 @@
 	.cover {
 		position: absolute;
 		right: 0;
-		width: 55%;
-		height: 75%;
+		width: 65%;
+		height: 80%;
 		object-fit: cover;
 		z-index: -1;
 		background: #f8f8f8;
