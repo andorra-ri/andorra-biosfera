@@ -76,25 +76,34 @@ faq:
       question: És realista que Andorra esdevingui el primer país reconegut com a Reserva de la Biosfera?
       answer: Andorra ja disposa actualment dels instruments tècnics i normatius que regulen l'ús i evolució dels recursos naturals i culturals d'acord amb criteris de sostenibilitat. El reconeixement de la UNESCO referma el compromís amb els Objectius de Desenvolupament Sostenible i garanteix l'articulació d'accions específiques per assolir-los.
     - group: 1
+      question: És compatible amb una població de 70.000 persones?
+      answer: Tota Reserva de la Biosfera contempla una zona de transició on s'hi concentra la principal activitat socioeconòmica, sense que el volum de població suposi cap restricció. La reserva de Gorges du Gardon inclou una població total de 200.000 persones concentrades majoritàriament a la ciutat de Nimes.​
+    - group: 1
       question: És un inconvenient que Ordino ja sigui una Reserva de la Biosfera?
       answer: En absolut. Que Ordino ja sigui una Reserva de la Biosfera avala positivament la candidatura a escala nacional​.
     - group: 1
       question: En què es diferència de la Vall del Madriu-Perafita-Claror?
-      answer: La Vall del Madriu-Perafita-Claror és Patrimoni de la Humanitat per la UNESCO, una figura creada per protegir i salvaguardar un patrimoni de valor exclusiu a escala mundial. La Reserva de la Biosfera és l'eina operativa del programa L'Home i la Biosfera, que reconeix l'home com a part indivisa i fonamental dins de l'entorn natural.
+      answer: Són dues figures diferents que persegueixen finalitats diferents. La Vall del Madriu-Perafita-Claror és Patrimoni de la Humanitat per la UNESCO, una figura creada per protegir i salvaguardar un patrimoni de valor exclusiu a escala mundial. La Reserva de la Biosfera és l'eina operativa del programa L'Home i la Biosfera, que reconeix l'ésser humà com a part indivisa i fonamental dins de l'entorn natural.
     - group: 2
       question: Com pot involucrar-se la ciutadania?
       answer: La Reserva de la Biosfera es fonamenta en la transparència i participació de tots els actors, inclosa la ciutadania, durant el procés de creació i al llarg del seu funcionament, mitjançant diferents taules de treball on seguir, debatre i contribuir en les diferents accions a realitzar.
     - group: 3
+      question: Quin retorn directe a curt termini en podem esperar?
+      answer: El principal, el posicionament estratègic d'Andorra a escala global en l'àmbit de l'Agenda 2030 dels Objectius de Desenvolupament Sostenible. A més, tindrà un efecte positiu en la diversificació del turisme, molt especialment de l'ecoturisme, enllaçant-lo amb  certificacions internacionals de turisme sostenible i de qualitat acreditada.
+    - group: 3
       question: Quines obligacions comporta?
-      answer: Tots aquells compromisos del pla de gestió i d'acció definits durant el procés de candidatura.
+      answer: Tots aquells compromisos del pla de gestió i d'acció definits durant el procés de candidatura que han de permetre garantir les funcions de conservació, desenvolupament i recerca.
     - group: 3
       question: Quines limitacions comporta?
-      answer: La Reserva de la Biosfera no té rang normatiu i no comporta cap limitació addicional sobre l'ús i gestió del territori a les ja imposades per la legislació vigent.
+      answer: La Reserva de la Biosfera no té rang normatiu i sempre s'esctructura segons els instruments i figures normatives existents; per tant, no comporta cap limitació addicional sobre l'ús i gestió del territori a les ja imposades per la legislació vigent.
     - group: 3
-      question: Existeix alguna penalització?
+      question: Existeix alguna penalització en cas de no complir amb el programa de la UNESCO?
       answer: La inclusió al programa és voluntària, i tant el no assoliment dels compromisos com la denegació d'una renovació no comporta cap sanció.
     - group: 3
-      question: Com afecta a la propietat privada?
+      question: Pot resoldre els diferents reptes en matèria de gestió territorial?
+      answer: La Reserva de la Biosfera és una eina per transformar conflictes territorials en consensos socials. No és suficient per resoldre certs reptes, però pot actuar com a catalitzador per impulsar iniciatives que confrontin realitats i permetin noves visions a l'hora de revisar i actualitzar normatives vigents.​
+    - group: 3
+      question: Com afecta la propietat privada?
       answer: La Reserva de la Biosfera no té implicacions sobre l'ús del sòl ni la propietat privada. Són i seran els POUPs els que s'encarreguen de regular el desenvolupament urbanístic de cada parròquia.
     - group: 3
       question: És compatible amb projectes de nova edificació?
@@ -108,3 +117,6 @@ faq:
     - group: 4
       question: Quina és la vigència del programa?
       answer: La declaració té una vigència de deu anys, renovable per deu anys més si els compromisos assumits s'han mantingut.
+    - group: 4
+      question: Quin és el full de ruta en cas de no rebre el reconeixement de la UNESCO?
+      answer: El full de ruta inicial i la implementació de l'Agenda 2030 seguirà el curs previst, encara que la UNESCO no consideri oportuna la creació de la Reserva de la Biosfera.
