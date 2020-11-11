@@ -19,20 +19,33 @@
 				<p>{{ $t(`reserve.zoning.${zone}.andorra`) }}</p>
 			</div>
 		</scrollama>
+		<div v-for="reason in reasons" :key="reason.id" :class="['parallax', reason.layout]">
+			<p>{{ $t(`reserve.reasons.${reason.id}`) }}</p>
+			<img
+				v-for="(image, i) in reason.images"
+				:key="image"
+				v-parallax="reason.parallax[i]"
+				:src="image">
+		</div>
 	</section>
 </template>
 
 <script>
+import Parallax from '../utils/directive.parallax';
 import Scrollama from '../components/Scrollama.vue';
 import Contours from '../components/Contours.vue';
 
+import { reasons } from '../config.yaml';
+
 export default {
 	name: 'Reserve',
+	directives: { Parallax },
 	components: { Scrollama, Contours },
 	data() {
 		return {
 			zones: ['core', 'buffer', 'transition'],
 			activeZone: undefined,
+			reasons,
 		};
 	},
 	methods: {

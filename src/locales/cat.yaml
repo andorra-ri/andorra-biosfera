@@ -1,5 +1,7 @@
 title: null
 
+lorem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 nav:
   candidacy: Candidatura
   faq: FAQs
@@ -48,6 +50,9 @@ reserve:
       name: Zona de transició
       description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
       andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme.
+  reasons:
+    environment: '@:lorem'
+    tradition: '@:lorem'
 
 candidacy:
   title: Procés de candidatura

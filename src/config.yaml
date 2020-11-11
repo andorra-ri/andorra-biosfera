@@ -30,6 +30,21 @@ goals:
     - id: consensus
       image: ''
 
+reasons:
+  - id: environment
+    images:
+      - https://instagram.fbcn9-1.fna.fbcdn.net/v/t51.2885-15/e35/58468432_629615587553649_1432855299155192112_n.jpg?_nc_ht=instagram.fbcn9-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=UesJUxpDTeUAX_0Bg1m&tp=18&oh=2bd7269f0a3ff530f1238c10dc433aaa&oe=5FD67239
+      - https://images.unsplash.com/photo-1536048810607-3dc7f86981cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80
+    layout: parallax-layout-1
+    parallax: [0.1, 0.2]
+  - id: tradition
+    images:
+      - https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
+      - https://www.rostit.cat/img/ecudella-i-carn-d-olla.jpg
+      - https://instagram.fbcn9-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/124846857_305931627041572_4964708312118434375_n.jpg?_nc_ht=instagram.fbcn9-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=6iJjY0m5zTQAX8T98ci&tp=19&oh=2410c16fe7c6402cd25f550efa666ba5&oe=5FD56973
+    layout: parallax-layout-2
+    parallax: [0.1, 0.3, 0.2]
+
 candidacy:
   # https://player.vimeo.com/video/{id}?portrait=false&title=false&byline=false
   video: https://player.vimeo.com/video/471933158
