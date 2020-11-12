@@ -2,6 +2,11 @@ title: null
 
 lorem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
+external:
+  exteriors_ods: Agenda 2030 per al desenvolupament sostenible
+  unesco_mab: programa Man and de Biosphere de la UNESCO
+  reserves_network: xarxa internacional de Reserves de la Biosfera
+
 nav:
   candidacy: Candidatura
   faq: FAQs
@@ -50,9 +55,11 @@ reserve:
       name: Zona de transició
       description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
       andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme.
-  reasons:
-    environment: '@:lorem'
-    tradition: '@:lorem'
+  why:
+    importance: Esdevenir Reserva de la Biosfera és important perquè ens permet anticipar-nos al futur i decidir, ara, quin model territorial volem per Andorra.
+    reasons: Ha de servir per posar en valor la feina feta fins ara i aconseguir un reconeixement al nostre model d'equilibri entre desenvolupament i sostenibilitat.
+    moment: "Ens permet avançar cap a una altra fita clau: el desplegament de l'{exteriors_ods}."
+    network: El {unesco_mab} ens ofereix un model de reconegut prestigi que s'adapta a la realitat del nostre país, i la oportunitat d'integrar-nos dins una {reserves_network}.
 
 candidacy:
   title: Procés de candidatura
