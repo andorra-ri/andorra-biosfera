@@ -1,11 +1,13 @@
 <template>
 	<section class="reserve">
-		<i18n tag="p" class="big" path="reserve.description">
-			<template #key_point>
-				<strong>{{ $t('reserve.key_point') }}</strong>
-			</template>
-		</i18n>
-		<p>{{ $t('reserve.functions') }}</p>
+		<div class="definition">
+			<i18n tag="p" class="main" path="reserve.description">
+				<template #key_point>
+					<strong>{{ $t('reserve.key_point') }}</strong>
+				</template>
+			</i18n>
+			<p class="functions">{{ $t('reserve.functions') }}</p>
+		</div>
 		<scrollama class="zoning" @step-enter="onStepEnter">
 			<p class="zoning__intro">{{ $t('reserve.zoning.description') }}</p>
 			<template #content>

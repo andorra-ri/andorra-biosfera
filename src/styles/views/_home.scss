@@ -1,5 +1,5 @@
 .landing {
-	height: calc(100vh - #{2 * $body-padding});
+	height: calc(100vh - #{$body-padding});
 	position: relative;
 
 	.hero {

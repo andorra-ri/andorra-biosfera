@@ -1,6 +1,6 @@
 .faq {
 
-	details + details { margin-top: 3rem; }
+	details + details { margin-top: $body-padding; }
 
 	summary {
 		font-size: 1.1rem;
