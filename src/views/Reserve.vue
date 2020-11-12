@@ -13,8 +13,8 @@
 					<contours :highlight="activeZone" class="zoning__contours" />
 				</div>
 			</template>
-			<div v-for="zone in zones" :key="zone" class="step">
-				<h3>{{ $t(`reserve.zoning.${zone}.name`) }}</h3>
+			<div v-for="zone in zones" :key="zone" :class="stepClass(zone)">
+				<h4>{{ $t(`reserve.zoning.${zone}.name`) }}</h4>
 				<p>{{ $t(`reserve.zoning.${zone}.description`) }}</p>
 				<p>{{ $t(`reserve.zoning.${zone}.andorra`) }}</p>
 			</div>
@@ -51,6 +51,9 @@ export default {
 	methods: {
 		onStepEnter(step) {
 			this.activeZone = this.zones[step.index];
+		},
+		stepClass(zone) {
+			return ['step', { active: zone === this.activeZone }];
 		},
 	},
 };

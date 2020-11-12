@@ -83,6 +83,22 @@
 		width: 33%;
 		position: relative;
 		z-index: 1;
+		opacity: 0.5;
+		transition: all 0.5s ease;
+
+		h4::after {
+			display: block;
+			content: '';
+			height: 3px;
+			width: 0;
+			background: $color-primary;
+			transition: all 0.5s ease;
+		}
+
+		&.active {
+			opacity: 1;
+			h4::after { width: 9rem; }
+		}
 
 		&:nth-child(2n) { margin-left: auto; }
 		&:last-child { margin-bottom: 0; }
