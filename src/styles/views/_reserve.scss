@@ -1,0 +1,196 @@
+.parallax {
+	position: relative;
+	padding: 1px;
+	margin: 3rem 0;
+
+	p {
+		position: relative;
+		z-index: 5;
+	}
+
+	img {
+		position: absolute;
+		object-fit: cover;
+		z-index: 0;
+	}
+
+	&-layout-1 {
+		p { margin: 10rem 0 10rem 60%; }
+		img {
+			&:nth-of-type(1) {
+				top: 5%;
+				height: 90%;
+				width: 40%;
+			}
+			&:nth-of-type(2) {
+				top: 20%;
+				left: 25%;
+				height: 75%;
+				width: 25%;
+			}
+		}
+	}
+
+	&-layout-2 {
+		p { margin: 10rem 60% 10rem 0; }
+		img {
+			&:nth-of-type(1) {
+				top: 10%;
+				left: 50%;
+				height: 80%;
+				width: 40%;
+			}
+			&:nth-of-type(2) {
+				height: 50%;
+				width: 25%;
+				top: 15%;
+				left: 80%;
+				z-index: 2;
+			}
+			&:nth-of-type(3) {
+				height: 45%;
+				width: 20%;
+				top: 55%;
+				left: 75%;
+				z-index: 1;
+			}
+		}
+	}
+
+	&-layout-3 {
+		p { margin: 10rem 0 10rem 60%; }
+		img {
+			&:nth-of-type(1) {
+				top: 0;
+				left: 20%;
+				height: 90%;
+				width: 30%;
+			}
+			&:nth-of-type(2) {
+				top: 30%;
+				height: 60%;
+				width: 30%;
+			}
+		}
+	}
+
+	&-layout-4 {
+		p { margin: 10rem 60% 10rem 0; }
+		img {
+			&:nth-of-type(1) {
+				top: 20%;
+				left: 40%;
+				width: 60%;
+				z-index: 0
+			}
+			&:nth-of-type(2) {
+				height: 30%;
+				top: 30%;
+				left: 80%;
+				z-index: 2;
+			}
+			&:nth-of-type(3) {
+				height: 25%;
+				top: 45%;
+				left: 59%;
+				z-index: 2;
+			}
+		}
+	}
+}
+
+.zoning {
+	display: flex;
+	flex-direction: column;
+	padding: 30vh 0;
+	margin: 10rem 0;
+
+	&__intro {
+		width: 40%;
+		margin-bottom: 5rem;
+	}
+
+	&__zones {
+		position: relative;
+		overflow: visible;
+	}
+
+	&__contours {
+		height: 60vh;
+		width: 60vh;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.step {
+		// margin: 20rem 0;
+		width: 33%;
+		position: relative;
+		z-index: 1;
+		opacity: 0.5;
+		transition: all 0.5s ease;
+
+		h4::after {
+			display: block;
+			content: '';
+			height: 3px;
+			width: 0;
+			background: $color-primary;
+			transition: all 0.5s ease;
+		}
+
+		&.active {
+			opacity: 1;
+			h4::after { width: 9rem; }
+		}
+
+		&:nth-child(2n) { margin-left: auto; }
+		&:last-child { margin-bottom: 0; }
+	}
+}
+
+// Contours SVG styling
+.contours {
+	.base {
+		fill: #fff;
+		stroke: #e8e8e8;
+	}
+
+	.highlight {
+		stroke: $color-primary;
+		fill: rgba($color-primary, 0.25);
+	}
+
+	.contour {
+		@extend .base;
+		opacity: 0.4;
+		stroke-width: 0.5;
+		transition: all 1s ease;
+
+		&--main {
+			opacity: 1;
+			stroke-width: 1;
+		}
+	}
+
+	&.core {
+		.contour--g4,
+		.contour--g5,
+		.contour--g6 { @extend .highlight; }
+	}
+
+	&.buffer {
+		.contour--g2,
+		.contour--g3 { @extend .highlight; }
+		.contour--16,
+		.contour--11 { stroke: $color-primary; }
+	}
+
+	&.transition {
+		.contour--g1 { @extend .highlight; }
+		.contour--g2 { @extend .base; }
+		.contour--6 { stroke: $color-primary; }
+	}
+}

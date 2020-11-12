@@ -1,5 +1,12 @@
 title: Andorra Reserva de la Biosfera
 
+lorem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+external:
+  exteriors_ods: Agenda 2030 per al desenvolupament sostenible
+  unesco_mab: programa Man and de Biosphere de la UNESCO
+  reserves_network: xarxa internacional de Reserves de la Biosfera
+
 nav:
   candidacy: Candidatura
   faq: FAQs
@@ -29,6 +36,30 @@ goals:
     tagline: Officiis {em} aut rerum non
     em: debitis
     description: Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+
+reserve:
+  description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.
+  key_point: conciliar la biodiversitat, el desenvolupament socioeconòmic i els valors culturals
+  functions: Les funcions principals inclouen contribuir a la conservació de paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic, i promoure la recerca científica, vigilància i educació contínua.
+  zoning:
+    description: Per a que una Reserva de la Biosfera pugui ser implementada, es requereix una estructura territorial dividida en tres zones.
+    core:
+      name: Nucli
+      description: Són tots els espais naturals amb ecosistemes singulars protegits jurídicament.
+      andorra: La zona nucli a Andorra la componen el Parc Natural de Sorteny, el Parc Natural de les Valls del Comapedrosa i el conjunt de la Vall del Madriu-Perafita-Claror.​
+    buffer:
+      name: Zona tampó
+      description: Envolta el nucli i s'hi desenvolupen activitats ecològicament sostenibles com les pràctiques ramaderes tradicionals, l'educació ambiental, la recreació, el turisme ecològic, i altres activitats que reforcen la recerca científica, el seguiment, la capacitació i l'educació.
+      andorra: La zona tampó a Andorra la componen els boscos i pastures públiques de Comuns i Quarts.
+    transition:
+      name: Zona de transició
+      description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
+      andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme.
+  why:
+    importance: Esdevenir Reserva de la Biosfera és important perquè ens permet anticipar-nos al futur i decidir, ara, quin model territorial volem per Andorra.
+    reasons: Ha de servir per posar en valor la feina feta fins ara i aconseguir un reconeixement al nostre model d'equilibri entre desenvolupament i sostenibilitat.
+    moment: "Ens permet avançar cap a una altra fita clau: el desplegament de l'{exteriors_ods}."
+    network: El {unesco_mab} ens ofereix un model de reconegut prestigi que s'adapta a la realitat del nostre país, i la oportunitat d'integrar-nos dins una {reserves_network}.
 
 candidacy:
   title: Procés de candidatura
