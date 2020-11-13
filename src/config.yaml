@@ -57,9 +57,9 @@ why:
     parallax: [0.1, 0.2]
   - id: network
     images:
-      - reserves_map.png
-      - unesco_mab.png
-      - ods.png
+      - img/reserves_map.png
+      - logos/unesco_mab.png
+      - logos/ods.png
     layout: parallax-layout-4
     parallax: [0.1, 0.2, 0.3]
 
