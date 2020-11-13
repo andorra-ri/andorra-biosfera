@@ -1,6 +1,4 @@
-title: Andorra Reserva de la Biosfera
-
-lorem: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+title: Candidatura Andorra Reserva de la Biosfera
 
 external:
   exteriors_ods: Agenda 2030 per al desenvolupament sostenible
@@ -21,21 +19,21 @@ social:
 
 goals:
   commitment:
-    tagline: May this be the {em} cool thing today?
-    em: very first
-    description: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+    tagline: '{em} '
+    em: Compromís
+    description: Un compromís comú per reconduir les febleses i posar en valor les fortaleses amb l’objectiu de millorar el model de país.
   sustainability:
-    tagline: At vero eos et {em}
-    em: accusamus
-    description: Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque.
+    tagline: Desenvolupament {em}
+    em: sostenible
+    description: Un catalitzador dels Objectius de Desenvolupament Sostenible, per garantir la conservació del patrimoni sense renunciar al desenvolupament social i econòmic del territori.
   anticipation:
-    tagline: Occaecati et {em} non provident sunt
-    em: cupiditate
-    description: Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+    tagline: '{em} '
+    em: Anticipació
+    description: Una oportunitat de repensar i planificar la nostra relació amb l’entorn i afrontar reptes futurs per construir un país pròsper, resilient i sostenible.
   consensus:
-    tagline: Officiis {em} aut rerum non
-    em: debitis
-    description: Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+    tagline: '{em} '
+    em: Consens
+    description: Un mecanisme per transformar els conflictes territorials en consensos a través d'un pacte comú, respectuós i responsable que prengui totes les parts en consideració.
 
 reserve:
   description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.
