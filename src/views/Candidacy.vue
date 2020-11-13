@@ -5,7 +5,7 @@
 			<p>{{ $t('candidacy.download_files') }}</p>
 			<ul class="files">
 				<li v-for="(path, name) in files" :key="name">
-					<svg><use :xlink:href="`vectors/files.svg#${extension(path)}`" /></svg>
+					<img :src="`vectors/file-${extension(path)}.svg`">
 					<a :href="path" download>{{ $t(`candidacy.files.${name}`) }}</a>
 				</li>
 			</ul>

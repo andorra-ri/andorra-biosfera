@@ -6,7 +6,7 @@
 				:title="$t(`social.${name}`)"
 				rel="external"
 				target="_blank">
-				<svg><use :xlink:href="`vectors/social.svg#${name}`" /></svg>
+				<img :src="`vectors/social-${name}.svg`">
 			</a>
 		</li>
 	</ul>
