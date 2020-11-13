@@ -12,7 +12,7 @@
 			<p class="zoning__intro">{{ $t('reserve.zoning.description') }}</p>
 			<template #content>
 				<div class="zoning__zones">
-					<contours :highlight="activeZone" class="zoning__contours" />
+					<contours :class="['zoning__contours', 'contours', activeZone]" />
 				</div>
 			</template>
 			<div v-for="zone in zones" :key="zone" :class="stepClass(zone)">
