@@ -38,7 +38,7 @@ goals:
 reserve:
   description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.
   key_point: conciliar la biodiversitat, el desenvolupament socioeconòmic i els valors culturals
-  functions: Les funcions principals inclouen contribuir a la conservació de paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic, i promoure la recerca científica, vigilància i educació contínua.
+  functions: Les funcions principals inclouen contribuir a la conservació de paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic sostenibles, i promoure una xarxa internacional que impulsi la recerca científica, la vigilància i l'educació contínua.
   zoning:
     description: Per a que una Reserva de la Biosfera pugui ser implementada, es requereix una estructura territorial dividida en tres zones.
     core:
@@ -52,7 +52,7 @@ reserve:
     transition:
       name: Zona de transició
       description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
-      andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme.
+      andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme sobre sòls urbans i urbanitzables.
   why:
     importance: Esdevenir Reserva de la Biosfera és important perquè ens permet anticipar-nos al futur i decidir, ara, quin model territorial volem per Andorra.
     reasons: Ha de servir per posar en valor la feina feta fins ara i aconseguir un reconeixement al nostre model d'equilibri entre desenvolupament i sostenibilitat.
