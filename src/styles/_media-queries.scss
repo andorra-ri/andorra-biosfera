@@ -29,6 +29,9 @@
 
 	.wrapper { padding: 0rem 2rem; }
 
+	h2 { font-size: $font-size--h2 / 1.5; }
+	h3 { font-size: $font-size--h3 / 1.5; }
+
 	.topbar {
 		position: sticky;
 		top: 0;
