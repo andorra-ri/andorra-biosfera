@@ -38,15 +38,15 @@ goals:
 why:
   - id: importance
     images:
-      - img/ball_esclops.jpg
-      - img/corrent_muntanya.jpg
+      - img/reserves_map.png
+      - logos/unesco_mab.png
     layout: parallax-layout-1
     parallax: [0.1, 0.2]
   - id: reasons
     images:
       - img/correfocs.jpg
-      - img/escudella.jpg
-      - img/andorra_fons_vall.jpg
+      - img/skimo.jpg
+      - img/trencalos.jpg
     layout: parallax-layout-2
     parallax: [0.1, 0.3, 0.2]
   - id: moment
@@ -54,14 +54,7 @@ why:
       - img/panells_solars.jpg
       - img/riu.jpg
     layout: parallax-layout-3
-    parallax: [0.1, 0.2]
-  - id: network
-    images:
-      - img/reserves_map.png
-      - logos/unesco_mab.png
-      - logos/ods.png
-    layout: parallax-layout-4
-    parallax: [0.1, 0.2, 0.3]
+    parallax: [0, 0.1, 0.2]
 
 candidacy:
   video: https://player.vimeo.com/video/478582124?portrait=false&title=false&byline=false

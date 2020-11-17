@@ -22,7 +22,12 @@
 			</div>
 		</scrollama>
 		<div v-for="reason in why" :key="reason.id" :class="['parallax', reason.layout]">
-			<i18n tag="p" :path="`reserve.why.${reason.id}`">
+			<h3>{{ $t(`reserve.why.${reason.id}.title`) }}</h3>
+			<i18n
+				v-for="(paragraph, i) in $t(`reserve.why.${reason.id}.text`)"
+				:key="i"
+				:path="`reserve.why.${reason.id}.text[${i}]`"
+				tag="p">
 				<template v-for="(link, anchor) in external" #[anchor]>
 					<a
 						:key="anchor"
