@@ -22,6 +22,36 @@
 			width: 100% !important;
 		}
 	}
+
+	.zoning {
+		margin: 15rem 0;
+
+		&__intro { width: 100%; }
+		.step {
+			width: 60%;
+			margin: 5rem 0;
+		}
+	}
+
+	.parallax {
+		padding: 0;
+
+		&-layout-1 img {
+			&:nth-of-type(1) {
+				width: 100%;
+				left: 0;
+				top: 30%;
+				z-index: -1;
+			}
+			&:nth-of-type(2) {
+				width: 25%;
+				height: 15%;
+				left: 60%;
+				top: 45%;
+			}
+		}
+	}
+
 }
 
 /* Portrait big-phones */
@@ -114,6 +144,27 @@
 			h1 { font-size: 0.8rem !important; }
 			.tagline { font-size: 3rem !important; }
 		}
+	}
+
+	.zoning {
+		margin: 5rem 0;
+		&__intro { width: 100%; }
+		.step {
+			width: 100%;
+			margin: 4rem 0;
+		}
+	}
+
+	.parallax {
+		padding: 0;
+
+		h3,
+		p {
+			padding: 0;
+			margin: 1rem 0;
+		}
+
+		img { display: none; }
 	}
 
 	.foot {
