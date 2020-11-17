@@ -15,7 +15,7 @@
 			box-sizing: border-box;
 			background: #fff;
 
-			& + li { margin-top: -$timeline-overlap; }
+			& + li { margin-top: -3rem; }
 
 			&:nth-child(2n+1) {
 				text-align: right;

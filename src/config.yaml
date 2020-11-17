@@ -60,14 +60,14 @@ candidacy:
   video: https://player.vimeo.com/video/478582124?portrait=false&title=false&byline=false
   steps:
     diagnosis: 1598918400000
-    diffusion: 1609459200000
+    diffusion: 1601510401000
     participation: 1612137600000
-    synthesis: 1625097600000
-    presentation: 1630454400000
-    resolution: 1646006400000
+    synthesis: 1633046401000
+    presentation: 1648771201000
+    resolution: 1664582401000
 
   files:
-    viability_study: docs/estudi_viabilitat.pdf
-    candidacy_slides: docs/presentacio_reserva_biosfera.pdf
-    participation_results: docs/resultats_proces_participatiu.zip
-    candidacy_dossier: docs/dossier_candidatura.pdf
+    viability_study: docs/estudi_viabilitat_reserva_biosfera_andorra.pdf
+    # candidacy_slides: null
+    # participation_results: null
+    # candidacy_dossier: null
