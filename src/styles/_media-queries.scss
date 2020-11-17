@@ -7,6 +7,83 @@
 
 	.wrapper { padding: 0rem 2rem; }
 
+	.topbar {
+		position: sticky;
+		top: 0;
+		margin: 0 -2rem;
+		background: #fff;
+		padding: 1rem 2rem 0;
+	}
+
+	.main-nav {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		margin: 0;
+		padding: 0 0 1rem;
+		z-index: 10;
+		box-shadow: 0 10px 10px 0 rgba(#000, 0.1);
+		text-align: center;
+
+		a {
+			display: block;
+			padding: 1rem;
+		}
+
+		.cta {
+			display: block;
+		}
+	}
+
+	#open-menu {
+		& + label {
+			display: block;
+			height: 1.5rem;
+			width: 1.5rem;
+			padding: 1rem;
+			margin-right: -1rem;
+			display: flex;
+			align-items: center;
+
+			span {
+				background: #333;
+				display: block;
+				height: 2px;
+				position: relative;
+				transition: background .2s ease-out;
+				width: 100%;
+
+				&::before,
+				&::after {
+					background: #333;
+					content: '';
+					display: block;
+					height: 100%;
+					position: absolute;
+					transition: all .2s ease-out;
+					width: 100%;
+				}
+
+				&::before { top: 0.5rem; }
+				&::after { top: -0.5rem; }
+			}
+		}
+
+		&:checked {
+			& + label span {
+				background: transparent;
+				&::before,
+				&::after { top: 0; }
+				&::before { transform: rotate(-45deg); }
+				&::after { transform: rotate(45deg); }
+			}
+			& ~ .main-nav { display: block; }
+		}
+	}
+
 	.foot {
 		display: flex;
 		flex-direction: column-reverse;
