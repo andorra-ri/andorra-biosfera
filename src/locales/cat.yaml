@@ -6,6 +6,8 @@ external:
   reserves_network: xarxa internacional de Reserves de la Biosfera
 
 nav:
+  what: Què és una reserva?
+  why: Per què una reserva?
   candidacy: Candidatura
   faq: FAQs
   join: Participa
@@ -32,9 +34,11 @@ goals:
     description: Un mecanisme per transformar els conflictes territorials en consensos a través d'un pacte comú, respectuós i responsable que prengui en consideració totes les parts.
 
 reserve:
+  title: Què és una reserva?
   description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.
   key_point: conciliar la biodiversitat, el desenvolupament socioeconòmic i els valors culturals
   functions: Tota reserva de la Biosfera ha de contribuir a la conservació de paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic sostenibles, i promoure una xarxa internacional que impulsi la recerca científica, la vigilància i l'educació contínua.
+  is_not: Una Reserva de la Biosfera no és una nova àrea protegida en el sentit tradicional del terme.
   zoning:
     description: Per a que una Reserva de la Biosfera pugui ser implementada, es requereix una estructura territorial dividida en tres zones.
     core:
@@ -50,6 +54,7 @@ reserve:
       description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
       andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme sobre sòls urbans i urbanitzables.
   why:
+    title: Per què una reserva?
     importance:
       title: Per què és important?
       text:

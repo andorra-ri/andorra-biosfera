@@ -3,6 +3,8 @@ scroll:
   updateHistory: false
 
 nav:
+  what: reserve
+  why: why
   candidacy: candidatura
   faq: faqs
 
