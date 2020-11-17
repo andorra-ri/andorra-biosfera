@@ -7,30 +7,17 @@
 
 		h1 {
 			font-weight: 600;
-			font-size: 1.5rem;
+			font-size: 1.6rem;
 		}
 
 		.tagline {
-			font-size: $font-size--h1;
-			font-weight: 600;
-			line-height: 1;
+			font-size: $font-size--tagline;
+			text-transform: uppercase;
+			font-weight: 900;
+			line-height: 0.5;
 			margin: 0.5em 0;
 			max-width: 65%;
 			letter-spacing: -0.025em;
-
-			em {
-				font-family: 'Kaushan Script', sans-serif;
-				letter-spacing: -0.075em;
-				display: inline-block;
-				color: $color-primary;
-				font-weight: lighter;
-				font-size: 1.75em;
-				margin-right: 0.125em;
-				transform: translateY(0.05em);
-				z-index: -1;
-				position: relative;
-				line-height: 0;
-			}
 		}
 
 		p {
@@ -48,7 +35,7 @@
 		object-fit: cover;
 		z-index: -1;
 		background: #f8f8f8;
-		mask-image: linear-gradient(to right, rgba(#000, 0.2), #000 75%);
+		mask-image: linear-gradient(to right, rgba(#000, 0.6), #000 75%);
 		// border-radius: 5px;
 	}
 

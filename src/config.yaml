@@ -27,13 +27,13 @@ goals:
   interval: 15 # seconds
   items:
     - id: commitment
-      image: img/roc_quer.jpg
-    - id: sustainability
       image: img/mans_fuster.jpg
+    - id: balance
+      image: img/ovelles.jpg
     - id: anticipation
-      image:
+      image: img/roc_quer.jpg
     - id: consensus
-      image: img/trencalos.jpg
+      image: img/claus.jpg
 
 why:
   - id: importance

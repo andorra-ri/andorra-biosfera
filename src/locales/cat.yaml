@@ -19,21 +19,17 @@ social:
 
 goals:
   commitment:
-    tagline: '{em} '
-    em: Compromís
-    description: Un compromís comú per reconduir les febleses i posar en valor les fortaleses amb l’objectiu de millorar el model de país.
-  sustainability:
-    tagline: Desenvolupament {em}
-    em: sostenible
+    tagline: Compromís
+    description: Un compromís comú per reconduir les febleses i posar en valor les fortaleses amb l’objectiu de millorar conjuntament el model de país.
+  balance:
+    tagline: Equilibri
     description: Un catalitzador dels Objectius de Desenvolupament Sostenible, per garantir la conservació del patrimoni sense renunciar al desenvolupament social i econòmic del territori.
   anticipation:
-    tagline: '{em} '
-    em: Anticipació
-    description: Una oportunitat de repensar i planificar la nostra relació amb l’entorn i afrontar reptes futurs per construir un país pròsper, resilient i sostenible.
+    tagline: Anticipació
+    description: Una oportunitat de repensar i planificar la nostra relació amb l’entorn i afrontar reptes de futur.
   consensus:
-    tagline: '{em} '
-    em: Consens
-    description: Un mecanisme per transformar els conflictes territorials en consensos a través d'un pacte comú, respectuós i responsable que prengui totes les parts en consideració.
+    tagline: Consens
+    description: Un mecanisme per transformar els conflictes territorials en consensos a través d'un pacte comú, respectuós i responsable que prengui en consideració totes les parts.
 
 reserve:
   description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.

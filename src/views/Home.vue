@@ -19,11 +19,7 @@
 				<img :src="item.image" class="cover">
 				<div class="hero">
 					<h1>{{ $t('title') }}</h1>
-					<i18n tag="h4" class="tagline" :path="`goals.${item.id}.tagline`">
-						<template #em>
-							<em>{{ $t(`goals.${item.id}.em`) }}</em>
-						</template>
-					</i18n>
+					<h4 class="tagline">{{ $t(`goals.${item.id}.tagline`) }}</h4>
 					<p>{{ $t(`goals.${item.id}.description`) }}</p>
 				</div>
 			</slideshow>
