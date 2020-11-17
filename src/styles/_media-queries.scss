@@ -1,5 +1,27 @@
-/* Portrait big-phones */
-@media all and (max-width: 320px) {
+/* Portrait tablets */
+@media all and (max-width: 768px) {
+	.slideshow {
+		display: flex !important;
+		flex-direction: column;
+		justify-content: center;
+
+		.cover {
+			position: relative;
+			width: 100%;
+			height: 40%;
+			margin-bottom: 2rem;
+			mask-image: none;
+		}
+	}
+
+	.hero {
+		h1 { font-size: 1.25rem !important; }
+		.tagline { font-size: 5rem !important; }
+		p {
+			padding: 0 !important;
+			width: 100% !important;
+		}
+	}
 }
 
 /* Portrait big-phones */
@@ -84,6 +106,13 @@
 		}
 	}
 
+	.slideshow {
+		.hero {
+			h1 { font-size: 0.8rem !important; }
+			.tagline { font-size: 3rem !important; }
+		}
+	}
+
 	.foot {
 		display: flex;
 		flex-direction: column-reverse;
@@ -109,12 +138,12 @@
 	}
 }
 
-
-/* Portrait tablets */
-@media all and (max-width: 768px) {
-
-}
-
-/* Small laptop screens */
-@media all and (max-width: 992px) {
+/* Portrait phones */
+@media all and (max-width: 320px) {
+	.slideshow {
+		.hero {
+			h1 { font-size: 0.6rem !important; }
+			.tagline { font-size: 2rem !important; }
+		}
+	}
 }
