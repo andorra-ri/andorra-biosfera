@@ -31,7 +31,7 @@ goals:
     - id: commitment
       image: img/mans_fuster.jpg
     - id: balance
-      image: img/ovelles.jpg
+      image: img/cavalls.jpg
     - id: anticipation
       image: img/roc_quer.jpg
     - id: consensus
