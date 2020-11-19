@@ -73,3 +73,10 @@ candidacy:
     candidacy_slides: docs/presentacio_candidatura_reserva_biosfera_andorra.pdf
     # participation_results: null
     # candidacy_dossier: null
+
+coordination:
+  leader: govern_andorra
+  fellows:
+    - iea
+    - obsa
+    - actua_innovacio
