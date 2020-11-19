@@ -47,7 +47,7 @@ why:
   - id: reasons
     images:
       - img/correfocs.jpg
-      - img/skimo.jpg
+      - img/ovelles.jpg
       - img/trencalos.jpg
     layout: parallax-layout-2
     parallax: [0.1, 0.3, 0.2]
