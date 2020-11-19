@@ -34,11 +34,11 @@ goals:
     description: Un mecanisme per transformar els conflictes territorials en consensos a través d'un pacte comú, respectuós i responsable que prengui en consideració totes les parts.
 
 reserve:
-  title: Què és una reserva?
+  title: Què és una Reserva de la Biosfera?
   description: Una Reserva de la Biosfera és una regió que s'ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de Desenvolupament Sostenible.
   key_point: conciliar la biodiversitat, el desenvolupament socioeconòmic i els valors culturals
   functions: Tota reserva de la Biosfera ha de contribuir a la conservació de paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic sostenibles, i promoure una xarxa internacional que impulsi la recerca científica, la vigilància i l'educació contínua.
-  is_not: Una Reserva de la Biosfera no és una nova àrea protegida en el sentit tradicional del terme.
+  is_not: Una Reserva de la Biosfera no és un nou espai natural protegit.
   zoning:
     description: Per a que una Reserva de la Biosfera pugui ser implementada, es requereix una estructura territorial dividida en tres zones.
     core:
@@ -54,13 +54,13 @@ reserve:
       description: Contempla un major nombre d'activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
       andorra: La zona de transició a Andorra s'ajusta al que preveu la Llei general d'ordenació del territori i urbanisme sobre sòls urbans i urbanitzables.
   why:
-    title: Per què una reserva?
+    title: Per què a Andorra?
     importance:
       title: Per què és important?
       text:
         - Esdevenir Reserva de la Biosfera ens permet anticipar-nos al futur i decidir, ara, quin model territorial volem per Andorra.
         - Ens permet consensuar aquest model territorial entre tots.
-        - El {unesco_mab} ens ofereix un model de reconegut prestigi que s'adapta a la realitat del nostre país, i la oportunitat d'integrar-nos dins una {reserves_network}.
+        - El {unesco_mab} ens ofereix un model de reconegut prestigi que s'adapta a la realitat del nostre país, i l'oportunitat d'integrar-nos dins una {reserves_network}.
     reasons:
       title: Per què volem fer-ho?
       text:
@@ -72,16 +72,16 @@ reserve:
         - "Ens permet avançar cap a una altra fita clau: el desplegament de l'{exteriors_ods}."
 
 candidacy:
-  title: Procés de candidatura
-  description: La candidatura del programa MAB consisteix a elaborar un dossier on es recullen els valors naturals i culturals que fan d'Andorra un candidat potencial per a ser denominat com a Reserva de la Biosfera. Cal demostrar la voluntat, les aptituds i les possibilitats que com a societat tenim per a garantir la conservació del territori sense renunciar al seu desenvolupament.
+  title: Procés de la candidatura
+  description: La candidatura del programa MAB consisteix a elaborar un dossier on es recullen els valors naturals i culturals que fan d'Andorra un candidat potencial per a ser declarat com a Reserva de la Biosfera. Cal demostrar la voluntat, les aptituds i les possibilitats que com a societat tenim per a garantir la conservació del territori sense renunciar al seu desenvolupament.
   steps:
     diagnosis:
       name: Diagnosi
-      description: Realització d'un estudi de viabilitat per valorar els requisits i les possibilitats de la candidatura.
+      description: Anàlisi de la viabilitat per valorar els requisits i les possibilitats de la candidatura.
       download: Estudi de viabilitat
     diffusion:
       name: Informació
-      description: Difusió a tots els actors i ciutadans d'Andorra mitjançant comunicats oficials, reunions de poble i les xarxes socials.
+      description: Presentació del projecte a totes les institucions, associacions, sectors econòmics i ciutadans d'Andorra mitjançant comunicats oficials, reunions de poble i xarxes socials.
       download: Presentació de la candidatura
     participation:
       name: Participació
@@ -114,53 +114,53 @@ faq:
 
   questions:
     - group: 1
-      question: Quines limitacions comporta la declaració de la RB?
-      answer: Cap ni una més enllà de les imposades per la pròpia legislació vigent. La RB no té rang normatiu, per tant no comporta cap limitació addicional sobre l'ús i gestió del territori. De fet, la RB s'estructura en base als instruments i figures normatives existents per tal d'assolir els seus objectius.
+      question: Quines limitacions comporta la declaració de la Reserva de la Biosfera?
+      answer: Cap ni una més enllà de les imposades per la pròpia legislació vigent. La Reserva de la Biosfera no té rang normatiu, per tant no comporta cap limitació addicional sobre l'ús i gestió del territori. De fet, la Reserva de la Biosfera s'estructura en base als instruments i figures normatives existents per tal d'assolir els seus objectius.
     - group: 1
-      question: Quina diferència hi ha entre la RB i la Vall del Madriu-Perafita i Claror?
-      answer: Les dues figures persegueixen finalitats diferents. La Vall del Madriu és Patrimoni de la humanitat per la UNESCO, una figura creada per PROTEGIR i SALVAGUARDAR un patrimoni de valor exclusiu a nivell mundial. La RB en canvi, és l’eina operativa del programa L’Home i la Biosfera, el qual reconeix l’home com a part indivisa i fonamental dins de l’entorn natural. La RB busca millorar la qualitat de vida de les persones fomentant l’equilibri amb l’entorn.
+      question: Quina diferència hi ha entre la Reserva de la Biosfera i la Vall del Madriu-Perafita i Claror?
+      answer: Les dues figures persegueixen finalitats diferents. La Vall del Madriu és Patrimoni de la humanitat per la UNESCO, una figura creada per PROTEGIR i SALVAGUARDAR un patrimoni de valor exclusiu a nivell mundial. La Reserva de la Biosfera en canvi, és l’eina operativa del programa L’Home i la Biosfera, el qual reconeix l’home com a part indivisa i fonamental dins de l’entorn natural. La Reserva de la Biosfera busca millorar la qualitat de vida de les persones fomentant l’equilibri amb l’entorn.
     - group: 2
-      question: Quines obligacions comporta ser una RB?
-      answer: Som nosaltres mateixos els que proposem; mitjançant la participació i el consens dels actors del país, el model de territori que volem i les mesures per aconseguir-ho, i és la UNESCO qui valora l’encaix de la RB dins de la missió del programa MAB. Per tant les obligacions són completament auto imposades, per això és fonamental la implicació de totes les parts interessades des de l’inici de la candidatura.
+      question: Quines obligacions comporta ser una Reserva de la Biosfera?
+      answer: Som nosaltres mateixos els que proposem; mitjançant la participació i el consens dels actors del país, el model de territori que volem i les mesures per aconseguir-ho, i és la UNESCO qui valora l’encaix de la Reserva de la Biosfera dins de la missió del programa MAB. Per tant les obligacions són completament auto imposades, per això és fonamental la implicació de totes les parts interessades des de l’inici de la candidatura.
     - group: 2
-      question: Quina durada té la designació de RB, i quines penalitzacions existeixen en cas de no complir amb els compromisos?
-      answer: La declaració de la RB té una vigència de 10 anys, moment en el qual cal sol·licitar una renovació mitjançant un procés de renovació i adequació, on es descriu l’estat del territori i els objectius assolits respecte els proposats. Si les condicions s’han mantingut o inclús han millorat respecte la proposta inicial, es podrà renovar la declaració RB per 10 anys addicionals. En canvi, si la situació és molt distant o poc té a veure amb l’estat inicial, la UNESCO pot decidir denegar la renovació. Aquest fet no comporta cap tipus de sanció administrativa, ja que recordem que la inclusió al programa MAB és totalment voluntària.
+      question: Quina durada té la designació de Reserva de la Biosfera, i quines penalitzacions existeixen en cas de no complir amb els compromisos?
+      answer: La declaració de la Reserva de la Biosfera té una vigència de 10 anys, moment en el qual cal sol·licitar una renovació mitjançant un procés de renovació i adequació, on es descriu l’estat del territori i els objectius assolits respecte els proposats. Si les condicions s’han mantingut o inclús han millorat respecte la proposta inicial, es podrà renovar la declaració Reserva de la Biosfera per 10 anys addicionals. En canvi, si la situació és molt distant o poc té a veure amb l’estat inicial, la UNESCO pot decidir denegar la renovació. Aquest fet no comporta cap tipus de sanció administrativa, ja que recordem que la inclusió al programa MAB és totalment voluntària.
     - group: 1
-      question: És viable que Andorra esdevingui el 1r país íntegrament reconegut com a RB?
+      question: És viable que Andorra esdevingui el 1r país íntegrament reconegut com a Reserva de la Biosfera?
       answer: El fet que Andorra disposi dels instruments  tècnics i normatius que regulen l'ús dels recursos naturals i culturals, és un bon punt de partida per esdevenir Reserva de la Biosfera. Tanmateix, queda camí per recórrer i amb l'adopció de l’Agenda 2030 hem posat data a la consecució d'aquest compromís. El fet d'obtenir el reconeixement de la UNESCO suposaria una oportunitat per alinear el nostre compromís amb el desplegament els Objectius de Desenvolupament Sostenible i garantir l’equilibri entre conservació i creixement.
     - group: 1
-      question: És un inconvenient el fet que Ordino ja sigui una RB?
-      answer: En absolut. Que Ordino ja sigui una RB és un punt molt positiu que avala la candidatura a nivell nacional. En aquest sentit la candidatura nacional permetrà representar totes les realitats del país alhora que aglutinar tot el patrimoni natural i cultural de les parròquies, per tal de proposar accions transversals sense renunciar a les singularitats de cada localitat.
+      question: És un inconvenient el fet que Ordino ja sigui una Reserva de la Biosfera?
+      answer: En absolut. Que Ordino ja sigui una Reserva de la Biosfera és un punt molt positiu que avala la candidatura a nivell nacional. En aquest sentit la candidatura nacional permetrà representar totes les realitats del país alhora que aglutinar tot el patrimoni natural i cultural de les parròquies, per tal de proposar accions transversals sense renunciar a les singularitats de cada localitat.
     - group: 2
-      question: Qui gestiona una RB?
-      answer: Tota RB té associada una entitat gestora que s’encarrega del seguiment, desenvolupament i dinamització de la RB. Aquesta entitat pot ser sota forma d'Agència, Fundació o Patronat entre d’altres, però en qualsevol cas hi estan representats els organismes públics (govern, comuns, quarts, gestors dels Espais Naturals Protegits), els principals sectors involucrats en el si de la RB (turisme, ramaders i agricultors, Ass. Joves, Ass. Naturalistes, etc.), així com el col·lectiu de recerca i educació.
+      question: Qui gestiona una Reserva de la Biosfera?
+      answer: Tota Reserva de la Biosfera té associada una entitat gestora que s’encarrega del seguiment, desenvolupament i dinamització de la Reserva de la Biosfera. Aquesta entitat pot ser sota forma d'Agència, Fundació o Patronat entre d’altres, però en qualsevol cas hi estan representats els organismes públics (govern, comuns, quarts, gestors dels Espais Naturals Protegits), els principals sectors involucrats en el si de la Reserva de la Biosfera (turisme, ramaders i agricultors, Ass. Joves, Ass. Naturalistes, etc.), així com el col·lectiu de recerca i educació.
     - group: 2
-      question: Hi ha algun finançament internacional per gestionar la RB?
-      answer: El fet de ser una RB no comporta cap tipus d'ajuda econòmica directa per part de la UNESCO. Ara bé, ser una RB, posiciona molt favorablement el territori per optar a finançament de projectes de recerca i desenvolupament d'alguns programes EU.
+      question: Hi ha algun finançament internacional per gestionar la Reserva de la Biosfera?
+      answer: El fet de ser una Reserva de la Biosfera no comporta cap tipus d'ajuda econòmica directa per part de la UNESCO. Ara bé, ser una Reserva de la Biosfera, posiciona molt favorablement el territori per optar a finançament de projectes de recerca i desenvolupament d'alguns programes EU.
     - group: 1
-      question: Com afecta la propietat privada, a l’ús del sòl i als Plans d’Ordenació i Urbanisme Parroquials la declaració de la RB?
-      answer: La RB no té incidència en l’ús del sòl, ni en la normativa urbanística, i per tant en el desenvolupament de la propietat privada. De fet la RB contempla la zona de Transició amb tals finalitats, doncs l'essència de la RB és que no es pot dissociar l’home de la biosfera. Són i seran els POUP's els que s'encarreguin de regular l'urbanisme dins de cada parròquia.
+      question: Com afecta la propietat privada, a l’ús del sòl i als Plans d’Ordenació i Urbanisme Parroquials la declaració de la Reserva de la Biosfera?
+      answer: La Reserva de la Biosfera no té incidència en l’ús del sòl, ni en la normativa urbanística, i per tant en el desenvolupament de la propietat privada. De fet la Reserva de la Biosfera contempla la zona de Transició amb tals finalitats, doncs l'essència de la Reserva de la Biosfera és que no es pot dissociar l’home de la biosfera. Són i seran els POUP's els que s'encarreguin de regular l'urbanisme dins de cada parròquia.
     - group: 3
-      question: Quin retorn en podem esperar de la RB?
-      answer: Més enllà del posicionament estratègic d'Andorra, a nivell global, en l'àmbit de l'Agenda 2030 dels Objectius de Desenvolupament Sostenible, la RB pot tenir un efecte positiu en la diversificació del turisme i suposar un punt d’inflexió per atreure i consolidar l'ecoturisme tal i com ha succeït en altres regions com la RB de Menorca o la RB de Lanzarote.
+      question: Quin retorn en podem esperar de la Reserva de la Biosfera?
+      answer: Més enllà del posicionament estratègic d'Andorra, a nivell global, en l'àmbit de l'Agenda 2030 dels Objectius de Desenvolupament Sostenible, la Reserva de la Biosfera pot tenir un efecte positiu en la diversificació del turisme i suposar un punt d’inflexió per atreure i consolidar l'ecoturisme tal i com ha succeït en altres regions com la Reserva de la Biosfera de Menorca o la Reserva de la Biosfera de Lanzarote.
     - group: 1
-      question: Són compatibles projectes de nova construcció i la designació de RB?
-      answer: La Reserva no va en contra del desenvolupament socio-econòmic, sempre i quant aquest sigui racional i ecològicament sostenible. En aquest sentit, ha de ser la normativa nacional la que vetlli pel compliment d'aquests criteris de sostenibilitat a múltiples nivells. En el cas d'Andorra on des de fa anys ja disposem dels POUP's, aquest creixement equilibrat, està previst i regulat i un bon exemple n'és el fet que Ordino ja sigui una RB.
+      question: Són compatibles projectes de nova construcció i la designació de Reserva de la Biosfera?
+      answer: La Reserva no va en contra del desenvolupament socio-econòmic, sempre i quan aquest sigui racional i ecològicament sostenible. En aquest sentit, ha de ser la normativa nacional la que vetlli pel compliment d'aquests criteris de sostenibilitat a múltiples nivells. En el cas d'Andorra on des de fa anys ja disposem dels POUP's, aquest creixement equilibrat, està previst i regulat i un bon exemple n'és el fet que Ordino ja sigui una Reserva de la Biosfera.
     - group: 1
-      question: Què passarà amb la caça i pesca?
-      answer: Sempre hi quant siguin ecològicament sostenibles, les activitats cinegètiques són comptabiles dins la RB. Un bon exemple el trobem a la RB de Fuerteventura on s’ha treballat conjuntament amb els col·lectius de caçadors i pescadors per millorar la sostenibilitat de les activitats.
+      question: Què passarà amb la caça i la pesca?
+      answer: Sempre hi quant siguin ecològicament sostenibles, les activitats cinegètiques són comptabiles dins la Reserva de la Biosfera. Un bon exemple el trobem a la Reserva de la Biosfera de Fuerteventura on s’ha treballat conjuntament amb els col·lectius de caçadors i pescadors per millorar la sostenibilitat de les activitats.
     - group: 3
-      question: Soc un ciutadà compromès amb la valorització del patrimoni d'Andorra, com me'n beneficiaré de la RB?
-      answer: La principal virtut de qualsevol RB rau en la transparència i participació de tots els actors del territori tant durant la seva creació així com al llarg  del seu funcionament. En aquest sentit, els ciutadans interessats en algun eix estratègic de la RB, podran seguir, contribuir i debatre accions que responguin a noves necessitats específiques, mitjançant la creació de taules de treball.
+      question: Com a ciutadà, quins beneficis m'aportarà la Reserva de la Biosfera?
+      answer: La principal virtut de qualsevol Reserva de la Biosfera rau en la transparència i participació de tots els actors del territori tant durant la seva creació així com al llarg  del seu funcionament. En aquest sentit, els ciutadans interessats en algun eix estratègic de la Reserva de la Biosfera, podran seguir, contribuir i debatre accions que responguin a noves necessitats específiques, mitjançant la creació de taules de treball.
     - group: 1
-      question: És compatible que dins d'una RB hi convisqui una població activa de 80000 habitants?​
-      answer: Tota RB contempla una zona de transició on s'hi concentra la principal activitat socioeconòmica. En volum de la població no suposa cap restricció en aquest sentit. Un clar exemple el trobem a la RB Gorges du Gardon que inclou una població total de 200.000 persones concentrades majoritàriament a la ciutat de Nimes.
+      question: És compatible que dins d'una Reserva de la Biosfera hi convisqui una població activa de 80.000 habitants?​
+      answer: Tota Reserva de la Biosfera contempla una zona de transició on s'hi concentra la principal activitat socioeconòmica. En volum de la població no suposa cap restricció en aquest sentit. Un clar exemple el trobem a la Reserva de la Biosfera Gorges du Gardon que inclou una població total de 200.000 persones concentrades majoritàriament a la ciutat de Nimes.
     - group: 1
       question: Què passarà amb les estacions d’esquí?
-      answer: La possibilitat d’incloure les estacions d’esquí dins de la RB no suposa cap incompatibilitat amb la seva missió. De fet, són nombroses les RB d’arreu del món que s’articulen al voltant de territoris on el turisme d’hivern representa una important activitat sòcio-econòmica, com per exemple la RB Laciana (espanya), la RB Grosses Walsertal (Austria), la RB Entlebuch (Suïssa) o la RB de Sierranevada entre d’altres.
+      answer: La possibilitat d’incloure les estacions d’esquí dins de la Reserva de la Biosfera no suposa cap incompatibilitat amb la seva missió. De fet, són nombroses les Reserva de la Biosfera d’arreu del món que s’articulen al voltant de territoris on el turisme d’hivern representa una important activitat sòcio-econòmica, com per exemple la Reserva de la Biosfera Laciana (Espanya), la Reserva de la Biosfera Grosses Walsertal (Austria), la Reserva de la Biosfera Entlebuch (Suïssa) o la Reserva de la Biosfera de Sierra Nevada (Espanya) entre d’altres.
     - group: 3
-      question: Podem esperar que la RB resolgui tots els conflictes d'actualitat en matèria de gestió territorial?​
-      answer: La RB és una bona eina per transformar conflictes territorials en consensos socials, no obstant no és una eina perfecta i en alguns casos no serà suficient per afrontar certs conflictes, amb especial atenció als derivats de l'àmbit legislatiu. Ara bé, sí que pot actuar com a catalitzador per impulsar iniciatives que confrontin realitats i permetin nous enfocs a l'hora d’impulsar, revisar o actualitzar normatives.​
+      question: Podem esperar que la Reserva de la Biosfera resolgui tots els conflictes d'actualitat en matèria de gestió territorial?​
+      answer: La Reserva de la Biosfera és una bona eina per transformar conflictes territorials en consensos socials, no obstant no és una eina perfecta i en alguns casos no serà suficient per afrontar certs conflictes, amb especial atenció als derivats de l'àmbit legislatiu. Ara bé, sí que pot actuar com a catalitzador per impulsar iniciatives que confrontin realitats i permetin nous enfocaments a l'hora d’impulsar, revisar o actualitzar normatives.​
     - group: 2
-      question: Quina serà la fulla de ruta en cas de no assolir el reconeixement de RB per part de la UNESCO?
-      answer: En el supòsit que la UNESCO no consideri oportú la creació de la RB AND, a efectes pràctics no modificarà la fulla de ruta del Govern,i la implementació de l'Agenda 2030 seguirà el seu curs. Tanmateix, seria una oportunitat perduda alhora de vehicular propostes i iniciatives consensuades entre els diferents actors.
+      question: Quin serà el full de ruta en cas de no assolir el reconeixement de Reserva de la Biosfera per part de la UNESCO?
+      answer: En el supòsit que la UNESCO no consideri oportú la creació de la Reserva de la Biosfera AND, a efectes pràctics no modificarà el full de ruta del Govern,i la implementació de l'Agenda 2030 seguirà el seu curs. Tanmateix, seria una oportunitat perduda alhora de vehicular propostes i iniciatives consensuades entre els diferents actors.
