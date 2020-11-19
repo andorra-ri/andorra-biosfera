@@ -199,14 +199,18 @@
 		}
 	}
 
-	.foot {
-		display: flex;
-		flex-direction: column-reverse;
-		margin: 0;
+	.foot{
+		&__bar {
+			display: flex;
+			flex-direction: column-reverse;
+			margin: 0;
+		}
 
 		.copyright {
 			margin: 1rem 0;
 		}
+
+		.logos { display: block; }
 
 		&__right {
 			margin: 1rem auto;

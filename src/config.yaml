@@ -16,7 +16,7 @@ external:
   reserves_network: https://en.unesco.org/biosphere/wnbr
 
 mails:
-  inquiry: consultes@andorrabiosfera.ad
+  inquiry: info@andorrabiosfera.ad
 
 social:
   twitter: https://www.twitter.com/andorrabiosfera
@@ -31,7 +31,7 @@ goals:
     - id: commitment
       image: img/mans_fuster.jpg
     - id: balance
-      image: img/ovelles.jpg
+      image: img/cavalls.jpg
     - id: anticipation
       image: img/roc_quer.jpg
     - id: consensus
@@ -47,7 +47,7 @@ why:
   - id: reasons
     images:
       - img/correfocs.jpg
-      - img/skimo.jpg
+      - img/ovelles.jpg
       - img/trencalos.jpg
     layout: parallax-layout-2
     parallax: [0.1, 0.3, 0.2]
@@ -70,6 +70,13 @@ candidacy:
 
   files:
     viability_study: docs/estudi_viabilitat_reserva_biosfera_andorra.pdf
-    # candidacy_slides: null
+    candidacy_slides: docs/presentacio_candidatura_reserva_biosfera_andorra.pdf
     # participation_results: null
     # candidacy_dossier: null
+
+coordination:
+  leader: govern_andorra
+  fellows:
+    - iea
+    - obsa
+    - actua_innovacio

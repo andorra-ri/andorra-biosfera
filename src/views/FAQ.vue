@@ -20,7 +20,7 @@
 			</div>
 		</header>
 		<div class="content">
-			<details v-for="question in questions" :key="question.question" open>
+			<details v-for="question in questions" :key="question.question">
 				<summary>{{ question.question }}</summary>
 				<p>{{ question.answer }}</p>
 			</details>
