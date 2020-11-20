@@ -1,7 +1,9 @@
 <template>
 	<footer class="foot">
 		<section class="coordination">
+			<p>{{ $t('leading') }}</p>
 			<img :src="`logos/${coordination.leader}.png`" class="logos__main">
+			<p>{{ $t('in_coordination') }}</p>
 			<ul class="logos">
 				<li v-for="fellow in coordination.fellows" :key="fellow">
 					<img :src="`logos/${fellow}.png`">
