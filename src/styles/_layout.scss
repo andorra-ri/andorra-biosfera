@@ -3,4 +3,56 @@
 body {
 	font: 1rem / 1.2 $font-family, sans-serif;
 	font-weight: $font-weight;
+	color: $color-text;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: $body-padding / 2 $body-padding;
+	max-width: $content-width;
+
+	section + section { margin-top: $section-spacing; }
+}
+
+section.split {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+
+	header {
+		flex: 1;
+		margin-right: $body-padding;
+		position: sticky;
+		top: 37%;
+	}
+
+	.content { flex: $section-split-ratio; }
+
+	aside {
+		width: 100%;
+		position: sticky;
+		top: $body-padding;
+		left: 0;
+	}
+
+	&.reverse {
+		flex-direction: row-reverse;
+
+		header {
+			margin-right: 0;
+			margin-left: $body-padding;
+		}
+	}
+}
+
+.topbar {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+
+	&__right { margin-left: auto; }
+	&__left { margin-right: auto; }
 }

@@ -1,0 +1,239 @@
+/* Portrait tablets */
+@media all and (max-width: 768px) {
+	.slideshow {
+		display: flex !important;
+		flex-direction: column;
+		justify-content: center;
+
+		.cover {
+			position: relative;
+			width: 100%;
+			height: 40%;
+			margin-bottom: 2rem;
+			mask-image: none;
+		}
+	}
+
+	.hero {
+		h1 { font-size: 1.25rem !important; }
+		.tagline { font-size: 5rem !important; }
+		p {
+			padding: 0 !important;
+			width: 100% !important;
+		}
+	}
+
+	.zoning {
+		margin: 15rem 0;
+
+		&__intro { width: 100%; }
+		.step {
+			width: 60%;
+			margin: 5rem 0;
+		}
+	}
+
+	.parallax {
+		padding: 0;
+
+		&-layout-1 img {
+			&:nth-of-type(1) {
+				width: 100%;
+				left: 0;
+				top: 30%;
+				z-index: -1;
+			}
+			&:nth-of-type(2) {
+				width: 25%;
+				height: 15%;
+				left: 60%;
+				top: 45%;
+			}
+		}
+	}
+
+
+	section.split {
+		display: block;
+
+		header {
+			position: relative;
+			margin: 0 !important;
+		}
+
+		.content { margin: 5rem 0; }
+		aside { display: none; }
+	}
+
+}
+
+/* Portrait big-phones */
+@media all and (max-width: 414px) {
+
+	.wrapper { padding: 0rem 2rem; }
+
+	h2 { font-size: $font-size--h2 / 1.5; }
+	h3 { font-size: $font-size--h3 / 1.5; }
+
+	.topbar {
+		position: sticky;
+		top: 0;
+		margin: 0 -2rem;
+		background: #fff;
+		padding: 1rem 2rem 0;
+	}
+
+	.main-nav {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		margin: 0;
+		padding: 0 0 1rem;
+		z-index: 10;
+		box-shadow: 0 10px 10px 0 rgba(#000, 0.1);
+		text-align: center;
+
+		a {
+			display: block;
+			padding: 1rem;
+		}
+
+		.cta {
+			display: block;
+		}
+	}
+
+	#open-menu {
+		& + label {
+			display: block;
+			height: 1.5rem;
+			width: 1.5rem;
+			padding: 1rem;
+			margin-right: -1rem;
+			display: flex;
+			align-items: center;
+
+			span {
+				background: #333;
+				display: block;
+				height: 2px;
+				position: relative;
+				transition: background .2s ease-out;
+				width: 100%;
+
+				&::before,
+				&::after {
+					background: #333;
+					content: '';
+					display: block;
+					height: 100%;
+					position: absolute;
+					transition: all .2s ease-out;
+					width: 100%;
+				}
+
+				&::before { top: 0.5rem; }
+				&::after { top: -0.5rem; }
+			}
+		}
+
+		&:checked {
+			& + label span {
+				background: transparent;
+				&::before,
+				&::after { top: 0; }
+				&::before { transform: rotate(-45deg); }
+				&::after { transform: rotate(45deg); }
+			}
+			& ~ .main-nav { display: block; }
+		}
+	}
+
+	.slideshow {
+		.hero {
+			h1 { font-size: 0.8rem !important; }
+			.tagline { font-size: 3rem !important; }
+		}
+	}
+
+	.zoning {
+		margin: 5rem 0;
+		&__intro { width: 100%; }
+		.step {
+			width: 100%;
+			margin: 4rem 0;
+		}
+	}
+
+	.parallax {
+		padding: 0;
+
+		h3,
+		p {
+			padding: 0;
+			margin: 1rem 0;
+		}
+
+		img { display: none; }
+	}
+
+	.timeline {
+		li {
+			width: 100% !important;
+			background: #fff;
+			margin: 0 !important;
+
+			&:nth-child(2n+1),
+			&:nth-child(2n) {
+				margin-left: 0 !important;
+				text-align: left !important;
+				border-right: none !important;
+				border-left: $timeline-border dashed $timeline-color-line;
+				padding-left: $timeline-spacing;
+
+				&::before { left: 0; }
+			}
+		}
+	}
+
+	.foot{
+		&__bar {
+			display: flex;
+			flex-direction: column-reverse;
+			margin: 0;
+		}
+
+		.copyright {
+			margin: 1rem 0;
+		}
+
+		.logos { display: block; }
+
+		&__right {
+			margin: 1rem auto;
+			width: 100%;
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: center;
+
+			.cta {
+				display: block;
+				text-align: center;
+				margin: 2rem 0;
+			}
+		}
+	}
+}
+
+/* Portrait phones */
+@media all and (max-width: 320px) {
+	.slideshow {
+		.hero {
+			h1 { font-size: 0.6rem !important; }
+			.tagline { font-size: 2rem !important; }
+		}
+	}
+}

@@ -1,0 +1,61 @@
+.cta {
+	background: $color-primary;
+	border: 0;
+	padding: 0.75rem 1rem;
+	font: inherit;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 3px;
+	outline: 0;
+
+	&:hover {
+		background: darken($color-primary, 10%);
+		box-shadow: 0 0 0 0.3rem rgba($color-primary, 0.3);
+	}
+}
+
+input.search {
+	outline: 0;
+	border: 0;
+	font: inherit;
+	padding: 0.25em 0;
+	padding-left: 2.5em;
+	background: url('../assets/vectors/search.svg') no-repeat left center;
+	background-size: auto 100%;
+
+	&::placeholder { font: inherit; }
+}
+
+.video {
+	width: 100%;
+	position: relative;
+
+	&--4_3 { padding-top: 75%; }
+	&--16_9 { padding-top: 56.25%; }
+	&--22_9 { padding-top: 40.91%; }
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+ul.files {
+	margin: 1.5rem 0;
+
+	li {
+		margin: 0.75rem;
+		display: flex;
+		align-items: center;
+
+		img {
+			height: 1.2em;
+			width: 1.2em;
+			display: inline-block;
+			margin-right: 0.25em;
+		}
+	}
+}

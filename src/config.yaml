@@ -1,0 +1,82 @@
+scroll:
+  duration: 2000
+  updateHistory: false
+
+nav:
+  what: reserve
+  why: why
+  candidacy: candidatura
+  faq: faqs
+
+join: https://www.visc.ad
+
+external:
+  exteriors_ods: https://www.exteriors.ad/ca/ods
+  unesco_mab: https://en.unesco.org/mab
+  reserves_network: https://en.unesco.org/biosphere/wnbr
+
+mails:
+  inquiry: info@andorrabiosfera.ad
+
+social:
+  twitter: https://www.twitter.com/andorrabiosfera
+  facebook: https://www.facebook.com/andorrabiosfera
+  instagram: https://www.instagram.com/andorrabiosfera
+  vimeo: https://www.vimeo.com/andorrabiosfera
+  telegram: tg://resolve?domain=andorrabiosfera
+
+goals:
+  interval: 15 # seconds
+  items:
+    - id: commitment
+      image: img/mans_fuster.jpg
+    - id: balance
+      image: img/cavalls.jpg
+    - id: anticipation
+      image: img/roc_quer.jpg
+    - id: consensus
+      image: img/claus.jpg
+
+why:
+  - id: importance
+    images:
+      - img/reserves_map.png
+      - logos/unesco_mab.png
+    layout: parallax-layout-1
+    parallax: [0.1, 0.2]
+  - id: reasons
+    images:
+      - img/correfocs.jpg
+      - img/ovelles.jpg
+      - img/trencalos.jpg
+    layout: parallax-layout-2
+    parallax: [0.1, 0.3, 0.2]
+  - id: moment
+    images:
+      - img/panells_solars.jpg
+      - img/riu.jpg
+    layout: parallax-layout-3
+    parallax: [0, 0.1, 0.2]
+
+candidacy:
+  video: https://player.vimeo.com/video/478582124?portrait=false&title=false&byline=false
+  steps:
+    diagnosis: 1598918400000
+    diffusion: 1601510401000
+    participation: 1612137600000
+    synthesis: 1633046401000
+    presentation: 1648771201000
+    resolution: 1664582401000
+
+  files:
+    viability_study: docs/estudi_viabilitat_reserva_biosfera_andorra.pdf
+    candidacy_slides: docs/presentacio_candidatura_reserva_biosfera_andorra.pdf
+    # participation_results: null
+    # candidacy_dossier: null
+
+coordination:
+  leader: govern_andorra
+  fellows:
+    - iea
+    - obsa
+    - actua_innovacio

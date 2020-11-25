@@ -1,0 +1,16 @@
+.faq {
+
+	details + details { margin-top: $body-padding; }
+
+	summary {
+		font-size: 1.1rem;
+		font-weight: 600;
+		outline: 0;
+		cursor: pointer;
+		list-style-type: none;
+
+		&::-webkit-details-marker { display:none; }
+	}
+
+	.contact { margin-top: 2.5rem; }
+}

@@ -1,0 +1,165 @@
+title: Candidatura "Andorra, Reserva de la Biosfera"
+
+leading: Candidatura impulsada per
+in_coordination: en coordinació amb
+
+external:
+  exteriors_ods: Agenda 2030 per al desenvolupament sostenible
+  unesco_mab: Programa Man and the Biosphere de la UNESCO
+  reserves_network: xarxa internacional de reserves de la biosfera
+
+nav:
+  what: Què és?
+  why: Per què?
+  candidacy: Candidatura
+  faq: FAQs
+  join: Participa
+
+social:
+  twitter: Segueix-nos a Twitter
+  facebook: Segueix-nos a Facebook
+  telegram: Segueix-nos a Telegram
+  instagram: Segueix-nos a Instagram
+  vimeo: Segueix-nos a Vimeo
+
+goals:
+  commitment:
+    tagline: Compromís
+    description: Un compromís comú per reconduir les febleses i fer valer les fortaleses amb l’objectiu de millorar conjuntament el model de país.
+  balance:
+    tagline: Equilibri
+    description: Un catalitzador dels Objectius de desenvolupament sostenible, per garantir la conservació del patrimoni sense renunciar al desenvolupament social i econòmic del territori
+  anticipation:
+    tagline: Anticipació
+    description: Una oportunitat per repensar i planificar la nostra relació amb l’entorn i afrontar reptes de futur.
+  consensus:
+    tagline: Consens
+    description: Un mecanisme per transformar els conflictes territorials en consensos a través d’un pacte comú, respectuós i responsable, que prengui en consideració totes les parts.
+
+reserve:
+  title: Què és una Reserva de la Biosfera?
+  description: Una reserva de la biosfera és una regió que s’ha marcat com a objectiu {key_point} mitjançant l’adopció dels Objectius de desenvolupament sostenible.
+  key_point: conciliar la biodiversitat, el desenvolupament socioeconòmic i els valors culturals
+  functions: Tota reserva de la biosfera ha de contribuir a conservar els paisatges i ecosistemes naturals, afavorir el desenvolupament humà i econòmic sostenibles, i promoure una xarxa internacional que impulsi la recerca científica, la vigilància i l’educació contínua.
+  is_not: Una reserva de la biosfera no és un nou espai natural protegit.
+  zoning:
+    description: Perquè una reserva de la biosfera pugui ser implementada, es requereix una estructura territorial dividida en tres zones.
+    core:
+      name: Nucli
+      description: Són tots els espais naturals amb ecosistemes singulars protegits jurídicament.
+      andorra: La zona nucli a Andorra estaria composta pel Parc natural de la vall de Sorteny, el Parc natural de les valls del Comapedrosa i el conjunt de la Vall del Madriu-Perafita-Claror.
+    buffer:
+      name: Zona tampó
+      description: Envolta el nucli i s’hi desenvolupen activitats ecològicament sostenibles, com les pràctiques ramaderes tradicionals, l’educació ambiental, la recreació, el turisme ecològic, i altres activitats que reforcen la recerca científica, el seguiment, la capacitació i l’educació.
+      andorra: La zona tampó a Andorra inclouria els boscos i les pastures públiques de comuns i quarts.
+    transition:
+      name: Zona de transició
+      description: Preveu un gran nombre d’activitats per promoure el desenvolupament econòmic, social i cultural. La componen les zones urbanes i rurals, així com els terrenys de titularitat privada.
+      andorra: La zona de transició a Andorra s’ajusta al que estableix la Llei general d’ordenació del territori i urbanisme sobre sòls urbans i urbanitzables.
+  why:
+    title: Per què a Andorra?
+    importance:
+      title: Per què és important?
+      text:
+        - Esdevenir reserva de la biosfera ens permet anticipar-nos al futur i decidir, ara, quin model territorial volem per a Andorra.
+        - Ens permet consensuar aquest model territorial entre tots.
+        - El {unesco_mab} ens ofereix un model de prestigi reconegut que s’adapta a la realitat del nostre país, i l’oportunitat d’integrar-nos en una {reserves_network}.
+    reasons:
+      title: Per què volem fer-ho?
+      text:
+        - Ha de servir per fer valer la feina feta fins ara i aconseguir un reconeixement al nostre model d’equilibri entre desenvolupament i sostenibilitat.
+        - Volem anar més enllà en aquest compromís i projectar-lo cap al futur; fer d’aquest equilibri el nostre full de ruta permanent.
+    moment:
+      title: Per què fer-ho ara?
+      text:
+        - "Ens permet avançar cap a una altra fita clau: el desplegament de l’{exteriors_ods}."
+
+candidacy:
+  title: Procés de candidatura
+  description: La candidatura del Programa MAB consisteix a elaborar un dossier en què es recullen els valors naturals i culturals que fan d’Andorra un candidat potencial per ser declarat reserva de la biosfera. Cal demostrar la voluntat, les aptituds i les possibilitats que tenim com a societat per garantir la conservació del territori sense renunciar al seu desenvolupament.
+  steps:
+    diagnosis:
+      name: Diagnosi
+      description: Anàlisi de la viabilitat per valorar els requisits i les possibilitats de la candidatura.
+    diffusion:
+      name: Informació
+      description: Presentació del projecte a totes les institucions, les associacions, els sectors econòmics i els ciutadans.
+    participation:
+      name: Participació
+      description: Realització de processos participatius amb tots els actors involucrats en la gestió del territori, fet fonamental durant tota la candidatura per garantir la transparència i representativitat dels objectius i compromisos adquirits.
+    synthesis:
+      name: Síntesi
+      description: Compilació de tota la informació que ja hi havia i la generada durant els processos participatius en un dossier que es presentarà a la UNESCO.
+    presentation:
+      name: Presentació
+      description: La Comissió Nacional d’Andorra per la UNESCO, juntament amb el Ministeri d’Afers Exteriors del Govern d’Andorra, presenten la candidatura a la UNESCO, que emetrà una resolució en un termini aproximat de sis mesos.
+    resolution:
+      name: Resolució UNESCO
+      description: ''
+
+  download_files: Descarrega els documents generats durant el procés de candidatura.
+  files:
+    viability_study: Estudi de viabilitat
+    candidacy_slides: Presentació de la candidatura
+    participation_results: Resultats del procés participatiu
+    candidacy_dossier: Dossier de la candidatura
+
+faq:
+  title: Preguntes freqüents
+  more_doubts: Tens més dubtes?
+  contact: Contacta amb nosaltres per {email} o a través de les xarxes socials.
+  email: correu electrònic
+  search: Cercar resposta...
+
+  questions:
+    - group: 1
+      question: Quines limitacions comporta la declaració de la reserva de la biosfera?
+      answer: Cap ni una, més enllà de les imposades per la mateixa legislació vigent. La reserva de la biosfera no té rang normatiu, per tant no comporta cap limitació addicional sobre l’ús i la gestió del territori. De fet, la reserva de la biosfera s’estructura d’acord amb els instruments i les figures normatives existents per tal d’assolir els seus objectius.
+    - group: 1
+      question: Quina diferència hi ha entre la reserva de la biosfera i la Vall del Madriu-Perafita i Claror?
+      answer: Les dos figures persegueixen finalitats diferents. La Vall del Madriu és patrimoni de la humanitat per la UNESCO, una figura creada per protegir i salvaguardar un patrimoni de valor exclusiu en l’àmbit mundial. La reserva de la biosfera, en canvi, és l’eina operativa del Programa sobre l’home i la biosfera, el qual reconeix l’home com a part indivisa i fonamental de l’entorn natural. La reserva de la biosfera busca millorar la qualitat de vida de les persones fomentant l’equilibri amb l’entorn.
+    - group: 2
+      question: Quines obligacions comporta ser una reserva de la biosfera?
+      answer: Som nosaltres mateixos els que proposem, mitjançant la participació i el consens dels actors del país, el model de territori que volem i les mesures per aconseguir-ho, i és la UNESCO qui valora l’encaix de la reserva de la biosfera en la missió del Programa MAB. Per tant, les obligacions són completament autoimposades, i per això és fonamental la implicació de totes les parts interessades des de l’inici de la candidatura.
+    - group: 2
+      question: Quina durada té la designació de reserva de la biosfera, i quines penalitzacions hi ha en cas que no es compleixin els compromisos?
+      answer: La declaració de la reserva de la biosfera té una vigència de deu anys, moment en el qual cal sol·licitar una renovació mitjançant un procés de renovació i adequació, en què es descriu l’estat del territori i els objectius assolits respecte dels proposats. Si les condicions s’han mantingut o inclús han millorat respecte de la proposta inicial, es podrà renovar la declaració de reserva de la biosfera durant deu anys més. En canvi, si la situació és molt distant o té poc a veure amb l’estat inicial, la UNESCO pot decidir denegar la renovació. Aquest fet no comporta cap tipus de sanció administrativa, ja que la inclusió al Programa MAB és totalment voluntària.
+    - group: 1
+      question: És viable que Andorra esdevingui el primer país íntegrament reconegut com a reserva de la biosfera?
+      answer: El fet que Andorra disposi dels instruments tècnics i normatius que regulen l’ús dels recursos naturals i culturals és un bon punt de partida per esdevenir reserva de la biosfera. Tanmateix, encara queda camí per recórrer i amb l’adopció de l’Agenda 2030 hem posat data a la consecució d’aquest compromís. El fet d’obtenir el reconeixement de la UNESCO suposaria una oportunitat per alinear el nostre compromís amb el desplegament els Objectius de desenvolupament sostenible i garantir l’equilibri entre la conservació i el creixement.
+    - group: 1
+      question: És un inconvenient el fet que Ordino ja sigui una reserva de la biosfera?
+      answer: En absolut. Que Ordino ja sigui una reserva de la biosfera és un punt molt positiu que avala la candidatura en l’àmbit nacional. En aquest sentit, la candidatura nacional permetrà representar totes les realitats del país, i alhora aglutinar tot el patrimoni natural i cultural de les parròquies, per tal de proposar accions transversals sense renunciar a les singularitats de cada localitat.
+    - group: 2
+      question: Qui gestiona una reserva de la biosfera?
+      answer: Tota reserva de la biosfera té associada una entitat gestora que s’encarrega de fer-ne el seguiment, el desenvolupament i la dinamització. Aquesta entitat pot tenir forma d’agència, fundació o patronat, entre d’altres, però, en qualsevol cas, hi estan representats els organismes públics (el Govern, els comuns, els quarts, els gestors dels espais naturals protegits), els principals sectors involucrats en el si de la reserva de la biosfera (el turisme, els ramaders i els agricultors, les associacions de joves, les associacions naturalistes, etc.), així com el col·lectiu de recerca i educació.
+    - group: 2
+      question: Hi ha algun finançament internacional per gestionar la reserva de la biosfera?
+      answer: El fet de ser una reserva de la biosfera no comporta cap tipus d’ajuda econòmica directa per part de la UNESCO. Ara bé, ser una reserva de la biosfera posiciona molt favorablement el territori per optar al finançament de projectes de recerca i desenvolupament d’alguns programes de la UE.
+    - group: 1
+      question: Com afecta la declaració de la reserva de la biosfera a la propietat privada, a l’ús del sòl i als plans d’ordenació i urbanisme parroquials (POUP)?
+      answer: La reserva de la biosfera no té incidència en l’ús del sòl ni en la normativa urbanística i, per tant, no repercuteix en el desenvolupament de la propietat privada. De fet, la reserva de la biosfera preveu una zona de transició on s’hi concentri l’activitat socioeconòmica principal, ja que l’essència de la reserva de la biosfera és que no es pot dissociar l’home de la biosfera. Són i seran els POUP els que s’encarreguin de regular l’urbanisme en cada parròquia.
+    - group: 3
+      question: Quin retorn en podem esperar en l’àmbit de país?
+      answer: Més enllà del posicionament estratègic d’Andorra en el terreny global, en l’àmbit de l’Agenda 2030 dels Objectius de desenvolupament sostenible, la reserva de la biosfera pot tenir un efecte positiu en la diversificació del turisme i pot suposar un punt d’inflexió per atreure i consolidar l’ecoturisme tal com ha succeït en altres regions, com és el cas de la reserva de la biosfera de Menorca o la de Lanzarote.
+    - group: 1
+      question: Són compatibles els projectes de nova construcció i la designació de reserva de la biosfera?
+      answer: La designació de reserva no va en contra del desenvolupament socioeconòmic, sempre que sigui racional i ecològicament sostenible. En aquest sentit, ha de ser la normativa nacional la que vetlli pel compliment d’aquests criteris de sostenibilitat en múltiples àmbits. En el cas d’Andorra, on des de fa anys ja disposem dels POUP, aquest creixement equilibrat està previst i regulat i un bon exemple n’és el fet que Ordino ja sigui una reserva de la biosfera.
+    - group: 1
+      question: Què passarà amb la caça i pesca?
+      answer: Sempre que siguin ecològicament sostenibles, les activitats cinegètiques són compatibles amb la reserva de la biosfera. Un bon exemple el trobem a la reserva de la biosfera de Fuerteventura, on s’ha treballat conjuntament amb els col·lectius de caçadors i pescadors per millorar la sostenibilitat de les activitats.
+    - group: 3
+      question: Com a ciutadà, com me’n beneficiaré del procés de la reserva de la biosfera?
+      answer: La principal virtut de qualsevol reserva de la biosfera rau en la transparència i participació de tots els actors del territori, tant durant la creació com al llarg del seu funcionament. En aquest sentit, els ciutadans interessats en algun eix estratègic de la reserva de la biosfera podran seguir i debatre accions que responguin a noves necessitats específiques i contribuir-hi, mitjançant la creació de taules de treball.
+    - group: 1
+      question: És compatible que un territori sigui reserva de la biosfera i hi convisqui una població activa de 80.000 habitants?
+      answer: Tota reserva de la biosfera preveu una zona de transició on s’hi concentra l’activitat socioeconòmica principal. El volum de la població no suposa cap restricció en aquest sentit. Un exemple clar el trobem a la reserva de la biosfera de Gorges du Gardon, que inclou una població de 200.000 persones, concentrada majoritàriament a la ciutat de Nimes.
+    - group: 1
+      question: Què passarà amb les estacions d’esquí?
+      answer: La possibilitat d’incloure les estacions d’esquí en la reserva de la biosfera no suposa cap incompatibilitat amb la seva missió. De fet, són nombroses les reserva de la biosfera d’arreu del món que s’articulen al voltant de territoris on el turisme d’hivern representa una activitat socioeconòmica important, com per exemple la reserva de la biosfera de Laciana (Espanya), la de Grosses Walsertal (Àustria), la d’Entlebuch (Suïssa) o la de Sierra Nevada (Espanya), entre d’altres.
+    - group: 3
+      question: Podem esperar que la reserva de la biosfera resolgui tots els conflictes d’actualitat en matèria de gestió territorial?
+      answer: La reserva de la biosfera és una bona eina per transformar conflictes territorials en consensos socials. No obstant això, no és una eina perfecta i en alguns casos no serà suficient per afrontar certs conflictes, amb especial atenció als que derivin de l’àmbit legislatiu. Ara bé, sí que pot actuar com a catalitzador per impulsar iniciatives que confrontin realitats i permetin nous enfocaments a l’hora d’impulsar, revisar o actualitzar normatives.
+    - group: 2
+      question: Quin serà el full de ruta en cas que Andorra no assoleixi el reconeixement de reserva de la biosfera per part de la UNESCO?
+      answer: En el supòsit que la UNESCO no consideri oportú designar Andorra reserva de la biosfera, a efectes pràctics això no modificarà el full de ruta del Govern, i la implementació de l’Agenda 2030 seguirà el seu curs. Tanmateix, aquest fet representaria una oportunitat perduda a l’hora de vehicular propostes i iniciatives consensuades entre els diferents actors.
