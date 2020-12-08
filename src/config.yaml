@@ -29,7 +29,8 @@ goals:
   interval: 15 # seconds
   items:
     - id: commitment
-      image: img/mans_fuster.jpg
+      image: img/andorra_pano.jpg
+      image_attr: imatge de Yaprak Gürdal, CC BY-SA 3.0
     - id: balance
       image: img/cavalls.jpg
     - id: anticipation
