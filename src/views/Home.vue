@@ -20,7 +20,10 @@
 				:items="goals.items"
 				:autoplay="goals.interval"
 				controls>
-				<img :src="item.image" class="cover">
+				<figure class="cover">
+					<img :src="item.image">
+					<figcaption v-if="item.image_attr">{{ item.image_attr }}</figcaption>
+				</figure>
 				<div class="hero">
 					<h1>{{ $t('title') }}</h1>
 					<h4 class="tagline">{{ $t(`goals.${item.id}.tagline`) }}</h4>
