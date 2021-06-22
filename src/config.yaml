@@ -78,6 +78,4 @@ candidacy:
 coordination:
   leader: govern_andorra
   fellows:
-    - iea
-    - obsa
-    - actua_innovacio
+    - ari
