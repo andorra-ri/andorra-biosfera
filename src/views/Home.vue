@@ -2,7 +2,6 @@
 	<section class="home">
 		<div class="landing">
 			<nav class="topbar">
-				<bookmark href="https://www.visc.ad/processes/logo-rba" />
 				<div class="topbar__right">
 					<input id="open-menu" type="checkbox">
 					<label for="open-menu"><span /></label>
@@ -37,12 +36,11 @@
 
 <script>
 import Slideshow from '../components/Slideshow.vue';
-import Bookmark from '../components/Bookmark.vue';
 import { nav, join, goals } from '../config.yaml';
 
 export default {
 	name: 'Home',
-	components: { Slideshow, Bookmark },
+	components: { Slideshow },
 	data() {
 		return {
 			nav,
