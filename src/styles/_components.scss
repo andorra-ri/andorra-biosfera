@@ -59,3 +59,56 @@ ul.files {
 		}
 	}
 }
+
+.bookmark {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 100px;
+	background: #7b7;
+	padding: 25px 10px;
+	width: 150px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 0.8em;
+	z-index: 10;
+
+	&::after {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 0;
+		padding: 0;
+		border: 75px solid #7b7;
+		border-top: 0;
+		border-bottom: 20px solid transparent;
+		box-sizing: border-box;
+	}
+
+	span {
+		letter-spacing: 3px;
+		display: block;
+		font-weight: lighter;
+		opacity: 0.7;
+	}
+
+	big {
+		display: block;
+		font-size: 2.5em;
+		line-height: 1.5;
+	}
+
+	small {
+		display: block;
+		font-weight: lighter;
+		font-style: none;
+		font-size: 0.75em;
+		letter-spacing: 5px;
+		margin-top: 0.5em;
+	}
+}

@@ -2,6 +2,7 @@
 	<section class="home">
 		<div class="landing">
 			<nav class="topbar">
+				<bookmark href="https://www.visc.ad/processes/logo-rba" />
 				<div class="topbar__right">
 					<input id="open-menu" type="checkbox">
 					<label for="open-menu"><span /></label>
@@ -20,7 +21,10 @@
 				:items="goals.items"
 				:autoplay="goals.interval"
 				controls>
-				<img :src="item.image" class="cover">
+				<figure class="cover">
+					<img :src="item.image">
+					<figcaption v-if="item.image_attr">{{ item.image_attr }}</figcaption>
+				</figure>
 				<div class="hero">
 					<h1>{{ $t('title') }}</h1>
 					<h4 class="tagline">{{ $t(`goals.${item.id}.tagline`) }}</h4>
@@ -33,11 +37,12 @@
 
 <script>
 import Slideshow from '../components/Slideshow.vue';
+import Bookmark from '../components/Bookmark.vue';
 import { nav, join, goals } from '../config.yaml';
 
 export default {
 	name: 'Home',
-	components: { Slideshow },
+	components: { Slideshow, Bookmark },
 	data() {
 		return {
 			nav,
