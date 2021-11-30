@@ -8,7 +8,7 @@ body {
 
 .wrapper {
 	margin: 0 auto;
-	padding: $body-padding / 2 $body-padding;
+	padding: calc($body-padding / 2) $body-padding;
 	max-width: $content-width;
 
 	section + section { margin-top: $section-spacing; }
