@@ -1,20 +1,21 @@
 <template>
 	<section class="home">
+		<nav class="topbar">
+			<h1 class="logo">Reserva de la Biosfera</h1>
+			<div class="topbar__right">
+				<input id="open-menu" type="checkbox">
+				<label for="open-menu"><span /></label>
+				<ul class="main-nav">
+					<li v-for="(section, name) in nav" :key="name">
+						<a v-smooth-scroll :href="`#${section}`">{{ $t(`nav.${name}`) }}</a>
+					</li>
+					<li>
+						<a :href="join" target="_blank" class="cta">{{ $t('nav.join') }}</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 		<div class="landing">
-			<nav class="topbar">
-				<div class="topbar__right">
-					<input id="open-menu" type="checkbox">
-					<label for="open-menu"><span /></label>
-					<ul class="main-nav">
-						<li v-for="(section, name) in nav" :key="name">
-							<a v-smooth-scroll :href="`#${section}`">{{ $t(`nav.${name}`) }}</a>
-						</li>
-						<li>
-							<a :href="join" target="_blank" class="cta">{{ $t('nav.join') }}</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
 			<slideshow
 				v-slot="{ item }"
 				:items="goals.items"
