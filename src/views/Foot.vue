@@ -1,5 +1,5 @@
 <template>
-  <footer class="foot">
+  <footer class="wrapper foot">
     <section class="coordination">
       <p>{{ t('leading') }}</p>
       <img :src="`logos/${coordination.leader}.png`" class="logos__main">

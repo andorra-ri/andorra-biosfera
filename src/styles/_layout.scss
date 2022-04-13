@@ -8,7 +8,7 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  padding: 0 $body-padding calc($body-padding / 2);
+  padding: 0 $body-padding $body-padding;
   max-width: $content-width;
 
   section + section { margin-top: $section-spacing; }
@@ -46,9 +46,16 @@ section.split {
 }
 
 .topbar {
-  display: flex;
-  align-items: center;
+  padding: 1rem 0 0;
   position: relative;
+  width: 100%;
+
+  &__content {
+    @extend .wrapper;
+
+    display: flex;
+    align-items: center;
+  }
 
   &__right { margin-left: auto; }
   &__left { margin-right: auto; }

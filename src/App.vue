@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="wrapper">
+  <div id="app">
     <go-top anchor="app" position="top-right" />
     <home />
     <reserve id="reserve" />

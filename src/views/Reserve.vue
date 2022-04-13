@@ -1,5 +1,5 @@
 <template>
-  <section class="reserve">
+  <section class="wrapper reserve">
     <div if="what" class="definition">
       <h2>{{ t('reserve.title') }}</h2>
       <i18n-t tag="p" class="main" keypath="reserve.description">

@@ -1,5 +1,5 @@
 <template>
-  <section class="split faq">
+  <section class="wrapper split faq">
     <aside>
       <input
         v-model="search"
