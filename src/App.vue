@@ -4,7 +4,7 @@
 		<home />
 		<!--reserve id="reserve" /-->
 		<candidacy id="candidatura" />
-		<!--faq id="faqs" /-->
+		<faq id="faqs" />
 		<foot />
 	</div>
 </template>
@@ -14,7 +14,7 @@
 import Home from './views/Home.vue';
 // import Reserve from './views/Reserve.vue';
 import Candidacy from './views/Candidacy.vue';
-// import Faq from './views/FAQ.vue';
+import Faq from './views/FAQ.vue';
 import Foot from './views/Foot.vue';
 
 export default {
@@ -24,7 +24,7 @@ export default {
 		Home,
 		// Reserve,
 		Candidacy,
-		// Faq,
+		Faq,
 		Foot,
 	},
 };
