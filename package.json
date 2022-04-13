@@ -4,32 +4,33 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "vite serve",
+    "lint": "eslint src && stylelint src/styles/*.scss",
+    "build": "vite build",
+    "serve": "vite serve"
   },
   "keywords": [],
   "author": "Marc Vilella <mvilella@obsa.ad> (https://github.com/markusand)",
   "license": "ISC",
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
-    "eslint": "^7.12.1",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-vue": "^7.1.0",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-static-files-copy": "^2.5.0",
-    "sass": "^1.29.0",
-    "stylelint": "^13.7.2",
-    "stylelint-scss": "^3.18.0",
-    "vue-template-compiler": "^2.6.12"
+    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
+    "@rollup/plugin-yaml": "^3.1.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-vue": "^8.6.0",
+    "sass": "^1.50.0",
+    "stylelint": "^14.6.1",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "vite": "^2.9.1"
   },
   "dependencies": {
-    "intersection-observer": "^0.11.0",
+    "intersection-observer": "^0.12.0",
     "reset-css": "^5.0.1",
-    "scrollama": "^2.2.1",
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-i18n": "^8.22.1",
-    "vue2-smooth-scroll": "^1.5.0"
+    "scrollama": "^3.1.1",
+    "vue": "^3.2.32",
+    "vue-i18n": "^9.1.9",
+    "vue3-smooth-scroll": "^0.8.1"
   }
 }
