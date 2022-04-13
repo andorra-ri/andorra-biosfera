@@ -1,5 +1,5 @@
 export default {
-	bind(el, binding) {
+	mounted(el, binding) {
 		const { value: scale = 1 } = binding;
 		el.onScroll = () => {
 			const { innerHeight } = window;
@@ -9,7 +9,7 @@ export default {
 		};
 		document.addEventListener('scroll', el.onScroll);
 	},
-	unbind(el) {
+	unmounted(el) {
 		document.removeEventListener('scroll', el.onScroll);
 	},
 };

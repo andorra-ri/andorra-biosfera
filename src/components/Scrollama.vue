@@ -10,41 +10,38 @@
 </template>
 
 <script>
+import { onMounted, onUnmounted } from 'vue';
 import 'intersection-observer';
-import scrollama from 'scrollama';
+import Scrollama from 'scrollama';
 
 export default {
 	name: 'Scrollama',
 	props: {
+    step: { type: String, default: '.step' },
 		offset: { type: [Number, String], default: 0.5 },
 		threshold: { type: Number, default: 4 },
 		once: { type: Boolean, default: false },
 		order: { type: Boolean, default: false },
 		progress: { type: Boolean, default: false },
 	},
-	data() {
-		return { scrollama: undefined };
-	},
-	mounted() {
-		this.scrollama = scrollama();
-		this.scrollama.setup({
-			step: '.step',
-			offset: this.offset,
-			threshold: this.threshold,
-			once: this.once,
-			order: this.order,
-			progress: this.progress,
-		});
+  setup(props, { emit }) {
+    const scrollama = Scrollama();
 
-		this.scrollama.onStepEnter(obj => this.$emit('step-enter', obj));
-		this.scrollama.onStepExit(obj => this.$emit('step-exit', obj));
-		this.scrollama.onStepProgress(obj => this.$emit('step-progress', obj));
+    onMounted(() => {
+      scrollama.setup(props);
+      scrollama.onStepEnter(obj => emit('step-enter', obj));
+      scrollama.onStepExit(obj => emit('step-exit', obj));
+      scrollama.onStepProgress(obj => emit('step-progress', obj));
+      window.addEventListener('resize', scrollama.resize);
+    });
 
-		window.addEventListener('resize', this.scrollama.resize);
-	},
-	beforeDestroy() {
-		this.scrollama.destroy();
-	},
+    onUnmounted(() => {
+      scrollama.destroy();
+      window.removeEventListener('resize', scrollama.resize);
+    })
+
+    return {};
+  },
 };
 </script>
 
