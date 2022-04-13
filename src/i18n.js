@@ -1,11 +1,12 @@
-import Vue from 'vue';
-import VueI18n from 'vue-i18n';
 
-import cat from './locales/cat.yaml';
+import { createI18n } from 'vue-i18n';
+import messages from '@intlify/vite-plugin-vue-i18n/messages'; // eslint-disable-line import/no-unresolved
+// import config from '/@/config.yaml';
 
-Vue.use(VueI18n);
+// const { default_locale: locale } = config.localization;
 
-export default new VueI18n({
-	locale: 'cat',
-	messages: { cat },
+export default createI18n({
+  locale: 'ca',
+  fallbackLocale: 'ca',
+  messages,
 });
