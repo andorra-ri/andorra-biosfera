@@ -1,9 +1,8 @@
 {
-  "plugins": [
-    "stylelint-scss"
-  ],
-  rules: {
-    "indentation": "tab",
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "string-quotes": "single",
+    "custom-property-pattern": ".+",
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true
   }
