@@ -11,11 +11,11 @@
 			<h2>{{ t('faq.title') }}</h2>
 			<div class="contact">
 				<h4>{{ t('faq.more_doubts') }}</h4>
-				<i18n tag="p" path="faq.contact">
+				<i18n-t tag="p" keypath="faq.contact">
 					<template #email>
 						<a :href="`mailto:${mails.inquiry}`">{{ t('faq.email') }}</a>
 					</template>
-				</i18n>
+				</i18n-t>
 				<nav-social />
 			</div>
 		</header>
