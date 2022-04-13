@@ -1,34 +1,34 @@
 <template>
-	<section class="split reverse candidacy">
-		<header>
-			<h2>{{ t('candidacy.title') }}</h2>
-			<p>{{ t('candidacy.download_files') }}</p>
-			<ul class="files">
-				<li v-for="file in files" :key="file.name">
-					<img :src="`vectors/file-${file.icon}.svg`">
-					<a :href="file.path" download>
+  <section class="split reverse candidacy">
+    <header>
+      <h2>{{ t('candidacy.title') }}</h2>
+      <p>{{ t('candidacy.download_files') }}</p>
+      <ul class="files">
+        <li v-for="file in files" :key="file.name">
+          <img :src="`vectors/file-${file.icon}.svg`">
+          <a :href="file.path" download>
             {{ t(`candidacy.files.${file.name}`) }}
           </a>
-				</li>
-			</ul>
-		</header>
-		<div class="content">
-			<div class="video video--16_9">
-				<iframe :src="video" allowfullscreen="true" />
-			</div>
-			<p>{{ t('candidacy.description') }}</p>
-			<ul class="timeline">
-				<li
-					v-for="step in steps"
-					:key="step.name"
-					:class="{ 'is-started': step.started }">
-					<em>{{ step.begin }}</em>
-					<h4>{{ t(`candidacy.steps.${step.name}.name`) }}</h4>
-					<p>{{ t(`candidacy.steps.${step.name}.description`) }}</p>
-				</li>
-			</ul>
-		</div>
-	</section>
+        </li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="video video--16_9">
+        <iframe :src="video" allowfullscreen="true" />
+      </div>
+      <p>{{ t('candidacy.description') }}</p>
+      <ul class="timeline">
+        <li
+          v-for="step in steps"
+          :key="step.name"
+          :class="{ 'is-started': step.started }">
+          <em>{{ step.begin }}</em>
+          <h4>{{ t(`candidacy.steps.${step.name}.name`) }}</h4>
+          <p>{{ t(`candidacy.steps.${step.name}.description`) }}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -40,7 +40,7 @@ const DATE_OPTIONS = { month: 'long', year: 'numeric' };
 const capitalize = text => text.charAt(0).toUpperCase() + text.slice(1);
 
 export default {
-	name: 'Candidacy',
+  name: 'Candidacy',
   setup() {
     const { t, locale } = useI18n();
 

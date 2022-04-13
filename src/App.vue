@@ -1,12 +1,12 @@
 <template>
-	<div id="app" class="wrapper">
-		<!--go-top anchor="app" position="top-right" /-->
-		<home />
-		<reserve id="reserve" />
-		<candidacy id="candidatura" />
-		<faq id="faqs" />
-		<foot />
-	</div>
+  <div id="app" class="wrapper">
+    <!--go-top anchor="app" position="top-right" /-->
+    <home />
+    <reserve id="reserve" />
+    <candidacy id="candidatura" />
+    <faq id="faqs" />
+    <foot />
+  </div>
 </template>
 
 <script>
@@ -18,14 +18,14 @@ import Faq from './views/FAQ.vue';
 import Foot from './views/Foot.vue';
 
 export default {
-	name: 'App',
+  name: 'App',
   components: {
-		// GoTop,
-		Home,
-		Reserve,
-		Candidacy,
-		Faq,
-		Foot,
-	},
+    // GoTop,
+    Home,
+    Reserve,
+    Candidacy,
+    Faq,
+    Foot,
+  },
 };
 </script>

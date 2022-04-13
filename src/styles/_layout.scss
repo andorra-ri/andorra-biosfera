@@ -1,55 +1,55 @@
 :root { font-size: $font-size; }
 
 body {
-	font: 1rem / 1.2 $font-family, sans-serif;
-	font-weight: $font-weight;
-	color: $color-text;
+  font: 1rem / 1.2 $font-family, sans-serif;
+  font-weight: $font-weight;
+  color: $color-text;
 }
 
 .wrapper {
-	margin: 0 auto;
-	padding: 0 $body-padding calc($body-padding / 2);
-	max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $body-padding calc($body-padding / 2);
+  max-width: $content-width;
 
-	section + section { margin-top: $section-spacing; }
+  section + section { margin-top: $section-spacing; }
 }
 
 section.split {
-	display: flex;
-	align-items: flex-start;
-	flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 
-	header {
-		flex: 1;
-		margin-right: $body-padding;
-		position: sticky;
-		top: 37%;
-	}
+  header {
+    flex: 1;
+    margin-right: $body-padding;
+    position: sticky;
+    top: 37%;
+  }
 
-	.content { flex: $section-split-ratio; }
+  .content { flex: $section-split-ratio; }
 
-	aside {
-		width: 100%;
-		position: sticky;
-		top: $body-padding;
-		left: 0;
-	}
+  aside {
+    width: 100%;
+    position: sticky;
+    top: $body-padding;
+    left: 0;
+  }
 
-	&.reverse {
-		flex-direction: row-reverse;
+  &.reverse {
+    flex-direction: row-reverse;
 
-		header {
-			margin-right: 0;
-			margin-left: $body-padding;
-		}
-	}
+    header {
+      margin-right: 0;
+      margin-left: $body-padding;
+    }
+  }
 }
 
 .topbar {
-	display: flex;
-	align-items: center;
-	position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 
-	&__right { margin-left: auto; }
-	&__left { margin-right: auto; }
+  &__right { margin-left: auto; }
+  &__left { margin-right: auto; }
 }

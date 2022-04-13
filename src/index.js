@@ -8,8 +8,6 @@ import './styles/index.scss';
 
 import { scroll } from './config.yaml';
 
-/* eslint-disable no-new */
-
 const app = createApp(App);
 app.use(i18n);
 app.use(SmoothScroll, scroll);
