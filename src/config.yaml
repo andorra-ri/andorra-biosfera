@@ -8,7 +8,7 @@ nav:
   candidacy: candidatura
   faq: faqs
 
-join: https://www.visc.ad
+join: https://cres-enquestesonline.iea.ad:4443/online.php?pid=BIOESFERA
 
 external:
   exteriors_ods: https://www.exteriors.ad/ca/ods
@@ -42,6 +42,7 @@ why:
     images:
       - img/reserves_map.png
       - logos/unesco_mab.png
+    paragraphs: 3
     layout: parallax-layout-1
     parallax: [0.1, 0.2]
   - id: reasons
@@ -49,12 +50,14 @@ why:
       - img/correfocs.jpg
       - img/ovelles.jpg
       - img/trencalos.jpg
+    paragraphs: 2
     layout: parallax-layout-2
     parallax: [0.1, 0.3, 0.2]
   - id: moment
     images:
       - img/panells_solars.jpg
       - img/riu.jpg
+    paragraphs: 1
     layout: parallax-layout-3
     parallax: [0, 0.1, 0.2]
 
@@ -64,9 +67,9 @@ candidacy:
     diagnosis: 1598918400000
     diffusion: 1601510401000
     participation: 1612137600000
-    synthesis: 1633046401000
-    presentation: 1648771201000
-    resolution: 1664582401000
+    synthesis: 1648803600000
+    presentation: 1662022800000
+    resolution: 1680339600000
 
   files:
     viability_study: docs/estudi_viabilitat_reserva_biosfera_andorra.pdf
