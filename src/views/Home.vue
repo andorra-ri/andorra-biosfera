@@ -37,6 +37,10 @@
         </div>
       </slideshow>
     </div>
+
+    <div class="wrapper banner">
+      <img src="/@/assets/banner_reunions_poble.jpg" alt="Reunions de poble">
+    </div>
   </section>
 </template>
 
