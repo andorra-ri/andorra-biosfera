@@ -20,11 +20,10 @@ mails:
   inquiry: info@andorrabiosfera.ad
 
 social:
-  twitter: https://www.twitter.com/andorrabiosfera
+  # twitter: https://www.twitter.com/andorrabiosfera
   facebook: https://www.facebook.com/Andorra-Biosfera-105439151423742
   instagram: https://www.instagram.com/andorra.biosfera
   vimeo: https://www.vimeo.com/andorrabiosfera
-  telegram: https://t.me/andorrabiosfera
 
 goals:
   interval: 15 # seconds
