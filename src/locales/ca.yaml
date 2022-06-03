@@ -12,6 +12,7 @@ nav:
   what: Què és?
   why: Per què?
   candidacy: Candidatura
+  testimonials: Testimonis
   faq: FAQs
   join: Enquesta
 
@@ -105,6 +106,14 @@ candidacy:
     press_kit_en: Press Kit (english)
     participation_results: Resultats del procés participatiu
     candidacy_dossier: Dossier de la candidatura
+
+testimonials:
+  title: Testimonis
+  caption: Descobreix què opina la gent del territori de la Reserva de la Biosfera
+  read: Entrevista completa a {name}
+
+  quotes:
+    pilar_rodriguez: S'ha de trobar un equilibri que impliqui no degradar el nostre patrimoni i alhora aconseguir un desenvolupament eficient, que no hipotequi el nostre futur, i equitatiu, que garanteixi el benestar de tota la població.
 
 faq:
   title: Preguntes freqüents
