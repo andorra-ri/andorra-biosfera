@@ -83,6 +83,9 @@ testimonials:
   pilar_rodriguez:
     name: Pilar Rodriguez
     file: entrevista_pilar_rodriguez.pdf
+  eva_choy:
+    name: Eva Choy
+    file: entrevista_eva_choy.pdf
 
 coordination:
   leader: govern_andorra
