@@ -86,6 +86,9 @@ testimonials:
   eva_choy:
     name: Eva Choy
     file: entrevista_eva_choy.pdf
+  josep_majoral:
+    name: Josep Majoral
+    file: entrevista_josep_majoral.pdf
 
 coordination:
   leader: govern_andorra
