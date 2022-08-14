@@ -89,6 +89,9 @@ testimonials:
   josep_majoral:
     name: Josep Majoral
     file: entrevista_josep_majoral.pdf
+  josep_marticella:
+    name: Josep Marticella
+    file: entrevista_josep_marticella.pdf
 
 coordination:
   leader: govern_andorra
