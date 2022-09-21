@@ -80,6 +80,9 @@ candidacy:
     # candidacy_dossier: null
 
 testimonials:
+  marc_font_ian_serra:
+    name: Marc Font & Ian Serra
+    file: entrevista_marc_font_ian_serra.pdf
   pilar_rodriguez:
     name: Pilar Rodriguez
     file: entrevista_pilar_rodriguez.pdf
