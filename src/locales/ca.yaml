@@ -12,8 +12,9 @@ nav:
   what: Què és?
   why: Per què?
   candidacy: Candidatura
+  testimonials: Testimonis
   faq: FAQs
-  join: Participa
+  join: Enquesta
 
 social:
   twitter: Segueix-nos a Twitter
@@ -101,8 +102,23 @@ candidacy:
   files:
     viability_study: Estudi de viabilitat
     candidacy_slides: Presentació de la candidatura
+    survey_results: Resultats enquesta
+    press_kit_ca: Dossier de premsa (català)
+    press_kit_en: Press Kit (english)
     participation_results: Resultats del procés participatiu
     candidacy_dossier: Dossier de la candidatura
+
+testimonials:
+  title: Testimonis
+  caption: Descobreix què opina la gent del territori de la Reserva de la Biosfera
+  read: Entrevista completa a {name}
+
+  quotes:
+    marc_font_ian_serra: Andorra, a diferència d’altres països, té un desplegament jurídic molt gran en pro de la gestió dels recursos naturals. (...) Ara cal assolir el consens i el compromís polític, social i econòmic.
+    pilar_rodriguez: S'ha de trobar un equilibri que impliqui no degradar el nostre patrimoni i alhora aconseguir un desenvolupament eficient, que no hipotequi el nostre futur, i equitatiu, que garanteixi el benestar de tota la població.
+    eva_choy: S’ha de treballar molt, però ho veig molt avantatjós per al país, vist que a Ordino ja estem detectant aquests petits canvis favorables.
+    josep_majoral: 'Les primeres preguntes són: “Això què implica? A què em compromet?” No obstant això, de seguida veuen que moltes de les coses ja les estan fent.'
+    josep_marticella: 'La sostenibilitat passa per tres principis: el de la biodiversistat, el socieconòmic i el de les persones. En segon és essencial: que no hi hagi activitat econòmica en el territori afecta la tercera pota, les persones, i un territori sense persones no té sentit.'
 
 faq:
   title: Preguntes freqüents

@@ -10,9 +10,9 @@ body {
   margin: 0 auto;
   padding: 0 $body-padding $body-padding;
   max-width: $content-width;
-
-  section + section { margin-top: $section-spacing; }
 }
+
+section + section { margin-top: $section-spacing !important; }
 
 section.split {
   display: flex;

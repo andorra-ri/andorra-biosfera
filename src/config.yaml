@@ -6,6 +6,7 @@ nav:
   what: reserve
   why: why
   candidacy: candidatura
+  testimonials: testimonials
   faq: faqs
 
 join: https://cres-enquestesonline.iea.ad:4443/online.php?pid=BIOESFERA
@@ -19,11 +20,10 @@ mails:
   inquiry: info@andorrabiosfera.ad
 
 social:
-  twitter: https://www.twitter.com/andorrabiosfera
+  # twitter: https://www.twitter.com/andorrabiosfera
   facebook: https://www.facebook.com/Andorra-Biosfera-105439151423742
   instagram: https://www.instagram.com/andorra.biosfera
   vimeo: https://www.vimeo.com/andorrabiosfera
-  telegram: https://t.me/andorrabiosfera
 
 goals:
   interval: 15 # seconds
@@ -74,8 +74,27 @@ candidacy:
   files:
     viability_study: docs/estudi_viabilitat_reserva_biosfera_andorra.pdf
     candidacy_slides: docs/presentacio_candidatura_reserva_biosfera_andorra.pdf
-    # participation_results: null
+    survey_results: docs/resultats_enquesta.pdf
+    press_kit_ca: docs/press_kit_ca.pdf
+    press_kit_en: docs/press_kit_en.pdf
     # candidacy_dossier: null
+
+testimonials:
+  marc_font_ian_serra:
+    name: Marc Font & Ian Serra
+    file: entrevista_marc_font_ian_serra.pdf
+  pilar_rodriguez:
+    name: Pilar Rodriguez
+    file: entrevista_pilar_rodriguez.pdf
+  eva_choy:
+    name: Eva Choy
+    file: entrevista_eva_choy.pdf
+  josep_majoral:
+    name: Josep Majoral
+    file: entrevista_josep_majoral.pdf
+  josep_marticella:
+    name: Josep Marticella
+    file: entrevista_josep_marticella.pdf
 
 coordination:
   leader: govern_andorra
